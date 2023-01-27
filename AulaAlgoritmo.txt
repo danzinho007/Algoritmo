@@ -1,0 +1,64 @@
+Aula 
+
+01: Escrevendo na tela
+Escreva
+Escreval
+
+02: Atribuíndo valores a variável
+caractere
+Escreva
+Escreval
+variável
+
+03: Fazer todas as operações com 2 valores quais
+    Soma +
+    Subtração -
+    Multiplicação *
+    Divisão /
+    Divisão Inteiro \ 
+    Exponenciação ^
+    Módulo %
+Inteiro
+Real
+variável
+
+04: Saber do ângulo seu :
+	Seno
+	Cosseno
+	Tangente
+	Secante
+	Cossecante
+	Cotangente
+
+05: Verificador de 3 números :
+	A>B ?
+	B>C ?
+	Etc
+
+06: Testando Fontes desconhecidas:
+
+07: Verificar se é triângulo e classificar em :
+	Equilátero
+	Escaleno
+	Isósceles
+	Acutângulo
+	Obtusângulo
+	Retângulo
+
+08: Juros Simples e Compostos
+
+09: Soma de Matriz 3x2
+
+10: Descubra sua idade
+
+11: Conversor de moedas :
+Somente afegane
+Porém tem várias moedas
+
+12-Conversão de Temperatura
+
+13-Porcentagem de qualquer valor
+
+14-Empréstimo
+
+15-
