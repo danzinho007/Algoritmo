@@ -62,3 +62,26 @@ Porém tem várias moedas
 14-Empréstimo
 
 15-
+
+75- Saber do ângulo seu :
+	Seno
+	Cosseno
+	Tangente
+	Secante
+	Cossecante
+	Cotangente
+Novidade : Procedimento 
+Não consegui fazer !!!
+
+76- Verificar se é triângulo e classificar em :
+	Equilátero
+	Escaleno
+	Isósceles
+	Acutângulo
+	Obtusângulo
+	Retângulo
+Novidade : Repita 
+
+77- Juros Simples e Compostos
+Novidade : Repita 
+
