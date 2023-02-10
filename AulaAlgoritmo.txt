@@ -44,12 +44,17 @@ variável
 	Acutângulo
 	Obtusângulo
 	Retângulo
+Novidade : 76 Repita 
 
 08: Juros Simples e Compostos
+Novidade : 77 Repita 
 
-09: Soma de Matriz 3x2
+09: Soma de Matriz 2x2
+Novidade : 78 Repita
+Novidade : 79 Repita + Procedimento
 
 10: Descubra sua idade
+Novidade : 80 Repita
 
 11: Conversor de moedas :
 Somente afegane
@@ -70,8 +75,7 @@ Porém tem várias moedas
 	Secante
 	Cossecante
 	Cotangente
-Novidade : Procedimento 
-Não consegui fazer !!!
+Novidade : Procedimento ( Não consegui fazer !!! )
 
 76- Verificar se é triângulo e classificar em :
 	Equilátero
@@ -85,3 +89,14 @@ Novidade : Repita
 77- Juros Simples e Compostos
 Novidade : Repita 
 
+78- Soma de Matriz 2x2 
+Novidade : Repeti
+
+79- Soma de Matriz 2x2 
+Novidade : Repeti + Procedimento
+
+80- Descubra sua idade
+Novidade : Repita
+
+81- Descubra sua idade
+Novidade : Repita + Procedimento
