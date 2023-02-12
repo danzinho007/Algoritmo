@@ -60,13 +60,60 @@ Novidade : 80 Repita
 Somente afegane
 Porém tem várias moedas
 
-12-Conversão de Temperatura
+12: Conversão de Temperatura
+Escreval, Leia e Operação
+Novidade : 83 Repita
+Novidade : 84 Repita e Escolha
 
-13-Porcentagem de qualquer valor
+13: Porcentagem de qualquer valor
+Escreval, Leia e Operação
 
-14-Empréstimo
+14: Empréstimo
+Escreval, Leia e Operação
 
-15-
+15: Maioridade e Carteira de Motorista
+Escreval, Leia, Operação e Se...então...senão
+
+16: Divisibilidade
+Escreval, Leia, Se...então...senão
+Div por 2, 6, 14, 15
+
+17: Número Fibonacci
+Escreval, Leia e Se...entao...senao
+
+18: IMC ( Índice de Massa Corporal )
+Escreval, Leia, Operação e Se...então..senão
+
+19: Equação do 2° Grau
+Escreval, Leia, Operação e Se...então
+
+20: Equação do 2° Grau
+Escreval, Leia, Operação e Se...então...senão
+
+21:
+22:
+23:
+24:
+25:
+26: Gols de Partida
+Escreva, Leia, Operação e Escolha
+
+27:
+28:
+29:
+30:
+
+33: Contando
+Escreval, Leia, Se...então...senão, Operação
+
+35: Testando Contador até 10
+Contador, Operação e Se...então
+
+40: Maior e menor nota
+Escreval, leia, contador, Enquanto e Se...então...senão 
+
+46: Números negativos e positivos
+Escreval, Leia, Repita, contador, Operação e Se...então...senão
 
 75- Saber do ângulo seu :
 	Seno
@@ -100,3 +147,14 @@ Novidade : Repita
 
 81- Descubra sua idade
 Novidade : Repita + Procedimento
+
+82- Projeto de Cadastro + Soma
+
+83: Conversão de Temperatura
+Escreval, Leia e Operação
+Novidade : Repita
+
+84: Conversão de Temperatura
+Novidade : Repita e Escolha
+
+85: 
