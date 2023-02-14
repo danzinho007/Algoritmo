@@ -67,6 +67,7 @@ Novidade : 84 Repita e Escolha
 
 13: Porcentagem de qualquer valor
 Escreval, Leia e Operação
+Novidade : 85 Repita
 
 14: Empréstimo
 Escreval, Leia e Operação
@@ -90,7 +91,10 @@ Escreval, Leia, Operação e Se...então
 20: Equação do 2° Grau
 Escreval, Leia, Operação e Se...então...senão
 
-21:
+21: Média da Escola
+Escreval, Leia, Média, Se...então
+Novidade 86 : Procedimento
+
 22:
 23:
 24:
