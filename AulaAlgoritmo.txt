@@ -95,10 +95,18 @@ Escreval, Leia, Operação e Se...então...senão
 Escreval, Leia, Média, Se...então
 Novidade 86 : Procedimento
 
-22:
-23:
-24:
-25:
+22: Média Teste + Prova / 2
+Escreva, Leia, Operação, Se...então...senão (2x)
+
+23: Doação Criança Esperança
+Escreval, Leia e Escolha
+
+24: Novo Salário
+Escreva, Leia e Escolha
+
+25: Aproveitamento Escla
+Escreva, Leia e Escolha
+
 26: Gols de Partida
 Escreva, Leia, Operação e Escolha
 
