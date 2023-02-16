@@ -110,19 +110,50 @@ Escreva, Leia e Escolha
 26: Gols de Partida
 Escreva, Leia, Operação e Escolha
 
-27:
-28:
-29:
-30:
+27: Número Fibonacci
+Escreval, Leia, Operação, Se...então...senão
+
+28: Testes
+cont, Enquanto...faça, Se...então
+
+29: Testes 2
+cont, Enquanto...faça, Se...entao
+
+30: Contar até 10
+cont, Enquanto...faça
+
+31: Contar até 10
+cont, Enquanto...faça
+
+32 : Até quanto você quer contar ?
+Escreval, Leia, cont, Enquanto...faça
 
 33: Contando
 Escreval, Leia, Se...então...senão, Operação
 
+34: Ler 10 números e somá-los
+cont, Enquanto...faça. Escreval, Leia, Se...então
+
 35: Testando Contador até 10
 Contador, Operação e Se...então
 
+36: Ler 10  números, somá-los, dizer o maior e o menor
+cont, Escreva, leia, Se...então
+
+37: Converter Reais pra Dólares
+cont, Escreva, Leia, Enquanto...faça
+
+38: Contador
+Escreval, Leia, cont, Enquanto...faça, Se...então...senão
+
+39: Quantos alunos tem na sala ? Digite a nota e diga a maior nota
+Escreval, Leia, cont, Enquanto...faça, Se...então
+
 40: Maior e menor nota
 Escreval, leia, contador, Enquanto e Se...então...senão 
+
+41: Quantos alunos tem na sala ? Digite o nome de cada um, agora Digite a nota dele e no final diga qual foi a maior e menor nota
+Escreval, Leia, cont, Enquanto...faça, Se...então
 
 46: Números negativos e positivos
 Escreval, Leia, Repita, contador, Operação e Se...então...senão
