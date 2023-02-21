@@ -1,4 +1,4 @@
-Aula 
+﻿Aula 
 
 01: Escrevendo na tela
 Escreva
@@ -100,24 +100,31 @@ Escreva, Leia, Opera��o, Se...ent�o...sen�o (2x)
 
 23: Doa��o Crian�a Esperan�a
 Escreval, Leia e Escolha
+Novidade 87 : Repita 
 
 24: Novo Sal�rio
 Escreva, Leia e Escolha
+Novidade 88 : Repita
 
 25: Aproveitamento Escla
 Escreva, Leia e Escolha
+Novidade 89 : Repita
 
 26: Gols de Partida
 Escreva, Leia, Opera��o e Escolha
+Novidade 90 : Repita
 
 27: Número Fibonacci
 Escreval, Leia, Opera��o, Se...ent�o...sen�o
+Novidade 91 : Repita
 
-28: Testes
+28: Testando Contador Positivo
 cont, Enquanto...fa�a, Se...ent�o
+1 até Infinito 
 
-29: Testes 2
-cont, Enquanto...fa�a, Se...entao
+29: Testando Contador Negativo
+cont, Enquanto...fa�a, Se...ent�o
+1 até Infinito 
 
 30: Contar at� 10
 cont, Enquanto...fa�a
