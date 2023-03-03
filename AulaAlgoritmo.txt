@@ -4,11 +4,11 @@
 Escreva
 Escreval
 
-02: Atribu�ndo valores a vari�vel
+02: Atribuindo valores a variavel
 caractere
 Escreva
 Escreval
-vari�vel
+variavel
 
 03: Fazer todas as opera��es com 2 valores quais
     Soma +
