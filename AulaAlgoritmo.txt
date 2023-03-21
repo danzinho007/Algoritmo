@@ -315,13 +315,19 @@ Digitar a nota do Teste e da Prova do 1° Bimestre, dai o Programa vai dizer se 
 Após isso se Soma a Média dos 4 Bimestres e divide por 4 pra dar a Média Final e dizer se o Aluno foi Aprovado ou reprovado
 Procedimento, Operação, Se...então....senão...FimSe, Escreval, Leia
 
-87:
+87: Criança Esperança
+Escolha com Repita
 
-88:
+88: Novo Salário Dependente
+Repita com Escolha + Operação
 
-89:
+89: Aproveitamento Escola
+Repita com Escolha
+Digitar a média e saber o rannk de A a F
 
-90:
+90: Gols de Partida
+Repita com Escolha + Operação
+Saber como foi a partida de acordo com o número de gols
 
 91:
 
