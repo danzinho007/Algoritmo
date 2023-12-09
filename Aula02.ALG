@@ -1,20 +1,20 @@
 Algoritmo "Aula 02"
-// Linguagem e Lógica de Programação 
-// Curso em Vídeo 
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o 
+// Curso em Vï¿½deo 
 
 Var
-//Var / Variáveis são espaços na memória que vão
+//Var / Variï¿½veis sï¿½o espaÃ§os na memÃ³ria que vï¿½o
 //guardar valores
    msg: Caractere
 Inicio
-      msg <- "Olá, mundo!"
-//msg está recebendo a mensagem "Olá,Mundo!"
+      msg <- "Olï¿½, mundo!"
+//msg estï¿½ recebendo a mensagem "Olï¿½,Mundo!"
       Escreval("msg")
 //Vai escrever o que ta pedindo : msg
       Escreval(msg)
-//Vai escrever o conteúdo da variável msg
+//Vai escrever o conteï¿½do da variï¿½vel msg
       Escreva("Senha aceita ", msg)
-//Vai escrever Mensagem dar um espaço e escrever o
-//conteúdo da variável msg
+//Vai escrever Mensagem dar um espaï¿½o e escrever o
+//conteï¿½do da variï¿½vel msg
 
 Fimalgoritmo

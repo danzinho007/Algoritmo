@@ -1,0 +1,32 @@
+Comandos :
+
+Atalhos :
+
+Ctrl + T = Selecionar tudo
+
+! dps CTRL+Espaço = Cria um modelo de pseudocódigo 
+algoritmo "semnome"
+*
+inicio
+fimalgoritmo
+
+# dps CTRL+Espaço = Cria um cabeçalho de programa
+// Algoritmo : *
+// Função :
+// Autor :
+// Data 
+
+F8 = Executa passo a passo o programa
+F9 = Executa o programa
+
+Comandos de var :
+
+msg: caractere 
+Guardando msg um tipo caractere 
+
+Comandos de inicio :
+
+Escreva("Msg") = Escreve uma mensagem na tela
+
+Escreval("Msg") = Escreve uma mensagem na tela e pula 1 linha
+

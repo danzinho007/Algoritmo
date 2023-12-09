@@ -1,34 +1,34 @@
-Algoritmo "Explicação"
-// Linguagem e Lógica de Programação 
-// Curso em Vídeo 
+Algoritmo "ExplicacÃ£o"
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o 
+// Curso em VÃ­deo 
 
 Var
-//Variáveis :
+//VariÃ¡veis :
 //indentificador : tipo
 
 //Identificadores :
 
-//1-Deve começar com uma letra
-//2-Os próximos caracteres podem ser letras ou números
-//3-Não se pode utilizar nenhum símbolo, excete _
+//1-Deve comeï¿½ar com uma letra
+//2-Os prï¿½ximos caracteres podem ser letras ou nï¿½meros
+//3-Nï¿½o se pode utilizar nenhum sï¿½mbolo, excete _
 //( underline )
-//4-Não pode conter espaços em branco
-//5-Não pode conter letras com acentos
-//6-Não pode ser uma palavra reservada ( Algoritmo,
+//4-Nï¿½o pode conter espaï¿½os em branco
+//5-Nï¿½o pode conter letras com acentos
+//6-Nï¿½o pode ser uma palavra reservada ( Algoritmo,
 //Var, Inicio, Fimalgoritmo, etc )
 
-//Exercícios :
+//Exercï¿½cios :
 
 //Nota1 = Pode ser
-//Média = Fere a regra 5
-//Salário Bruto = Fere a regra 4 e 5
+//MÃ©dia = Fere a regra 5
+//Salï¿½rio Bruto = Fere a regra 4 e 5
 //9dade = Fere a regra 1
 //Algoritmo = Fere a regra 6
 //Inicio_Algoritmo
 
 //Tipos Primitivos :
-//OBS : Na Lógica de Programação não se usa ,
-//( vírgula ) ao invés disso usa-se . ( ponto )
+//OBS : Na Lï¿½gica de Programaï¿½ï¿½o nï¿½o se usa ,
+//( vï¿½rgula ) ao invï¿½s disso usa-se . ( ponto )
 
 //Inteiro : Ex -3,1,0,
 //Real 	: Ex 0.5, 5.0, -77.4, 3.1415 ( pi )
