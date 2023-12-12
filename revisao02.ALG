@@ -21,6 +21,10 @@ var
    Soma, Subt, Mult, Divi, DiIn, Expo, Modu: real
    Seno, Coss, Tang, Sec, Cosc, Cotg: real
 inicio
+   // F9 Executar rápido
+   // F8 Executar passo a passo
+   // Ctrl T = Selecionar tudo
+   // ! dps Ctrl + Espaço = Principal do programa
    // 1- Escrever Olá Mundo na tela
    Escreva("Olá Mundo")
    // 2- Escrever Olá Mundo na tela, pular uma linha e
@@ -54,10 +58,10 @@ inicio
    Leia(n2)
    Soma <- n1 + n2   // 5 + 2 = 7
    Subt <- n1 - n2   // 5 - 2 = 3
-   Mult <- n1 * n2   // 5 * 2 = 10
+   Mult <- n1 * n2   // 5 * 2 = 10 e 5 * 3 = 15
    Divi <- n1 / n2   // 5 / 2 = 2.5
    DiIn <- n1 \ n2   // 5 / 2 = 2.5 ( parte inteira é 2 )
-   Expo <- n1 ^ n2   // 5² = 25
+   Expo <- n1 ^ n2   // 5² = 25 5³ = 5 x 5 x 5 > 125 ( 25 x 5 125)
    Modu <- n1 % n2   // 5 / 2 = 2.5 com resto 1
    Escreval("A soma entre", n1, " e",n2, " é igual a :", Soma)
    Escreval("A subtração entre", n1, " e",n2, " é igual a :", Subt)
@@ -91,10 +95,10 @@ inicio
    Sec <- 1 / Coss
    Cosc <- 1 / Seno
    Cotg <- 1 / Tang
-   Escreval("O ângulo", ang, " tem Seno de", Seno)
-   Escreval("O ângulo", ang, " tem Cosseno de", Coss)
-   Escreval("O ângulo", ang, " tem Tangente de", Tang)
-   Escreval("O ângulo", ang, " tem Secante de", Sec)
-   Escreval("O ângulo", ang, " tem Cossecante de", Cosc)
-   Escreval("O ângulo", ang, " tem Cotangente de", Cotg)
+   Escreval("O ângulo", ang, " tem Seno de ", Seno:2:2)
+   Escreval("O ângulo", ang, " tem Cosseno de ", Coss:2:2)
+   Escreval("O ângulo", ang, " tem Tangente de ", Tang:2:2)
+   Escreval("O ângulo", ang, " tem Secante de ", Sec:2:2)
+   Escreval("O ângulo", ang, " tem Cossecante de ", Cosc:2:2)
+   Escreval("O ângulo", ang, " tem Cotangente de ", Cotg:2:2)
 fimalgoritmo

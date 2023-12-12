@@ -5,7 +5,20 @@ var
    A, B, C: inteiro
    L1, L2, L3: real
    Tri: logico
+   n1: inteiro
+   n2: real
+   n3: caractere
+   n4: logico
+   Equ, Esc, Iso: logico
+   angA, angB, angC, Soma: real
+   Class, Acu, Obt, Ret: logico
 inicio
+      // 11- Descubra os valores padrões dos tipos
+      // primitivos
+      Escreval(n1)
+      Escreval(n2)
+      Escreval(n3)
+      Escreval(n4)
       // Lembrete :
       // 1º) as operações que estão dentro dos
       // parênteses ( )
@@ -44,7 +57,7 @@ inicio
 
       Escreval(Exp1, Exp2, Exp3, Exp4, Exp5, Exp6)
       
-      // 11- Faça um programa que leia as duas notas
+      // 12- Faça um programa que leia as duas notas
       // de um aluno em uma matéria e mostre na tela
       // a sua média na disciplina.
       Escreva("Digite a nota do teste : ")
@@ -54,7 +67,7 @@ inicio
       Media <- ( t1 + p1 ) / 2
       Escreval("A média entre", t1, " e", p1, " é de",Media)
       
-      //12- Compare valores usando todos Operadores
+      //13- Compare valores usando todos Operadores
       // relacionais
       A <- 2
       B <- 6
@@ -63,7 +76,7 @@ inicio
       Escreval("A é igual a B ?", A=B)
       Escreval("A é igual a C ?", A=C)
       Escreval("B é igual a C ?", B=C)
-      Escreval("")
+      Escreval
       Escreval("A é maior que B ?", A>B)
       Escreval("A é maior que C ?", A>C)
       Escreval("B é maior que C ?", B>C)
@@ -85,7 +98,7 @@ inicio
       Escreval("B é diferente de C ?", B<>C)
       Escreval("")
       
-      // 13- Compare valores usando todos Operadores
+      // 14- Compare valores usando todos Operadores
       // relacionais junto de Operadores Aritméticos
       Escreval("Sendo A = 2, B = 6 e C = 4, temos : ")
       Escreval("A é igual a B - 2 ?", A = B - 2)  // V
@@ -95,7 +108,7 @@ inicio
       Escreval("A é menor ou igual a C - 3 ?", A<=C-3) // F
       Escreval("B é diferente de C + 1 ?", B<>C+1) // V
       
-      // 14- Compare valores usando todos Operadores
+      // 15- Compare valores usando todos Operadores
       // relacionais junto de Operadores Lógicos
       Escreval("Sendo A = 2, B = 6 e C = 4, temos : ")
       Escreval("A é igual a B e B é diferente de C ?", (A=B) e (B<>C))
@@ -108,7 +121,7 @@ inicio
       // V ou V = V
       Escreval("")
       
-      // 15- Compare valores usando todos Operadores
+      // 16- Compare valores usando todos Operadores
       // relacionais junto de Operadores Aritméticos e
       // Lógicos
       Escreval("Sendo A = 2, B = 6 e C = 4, temos : ")
@@ -126,7 +139,7 @@ inicio
       Escreval("B é maior que A ou B é maior que C + 2 : ", (B>A) ou (B>C+2))
       Escreval("")
       
-      // 16- Crie um programa que verifique se o triângulo
+      // 17- Crie um programa que verifique se o triângulo
       // pode ser formado e classifique ele em : Equilátero,
       // Escaleno e Isósceles
       
@@ -160,7 +173,7 @@ inicio
       Escreval("Pode ser um triângulo ? ", Tri)
       Escreval("")
       
-      // 17- Caso o triângulo do 16 possa ser formado,
+      // 18- Caso o triângulo do 16 possa ser formado,
       // classifique ele quanto ao lado agora em
       // Equilátero, Escaleno ou Isósceles
       
@@ -169,13 +182,38 @@ inicio
       //Escaleno = 3 lados diferentes
       //Isóscelos = 2 lados com a mesma medida
 
-      // 18- Caso o triângulo do 16 possa ser formado,
+      Equ <- (L1=L2) e (L1=L3) e (L2=L3)
+      Esc <- (L1<>L2) e (L1<>L3) e (L2<>L3)
+      Iso <- (L1=L2) e (L2<>L3) ou (L1=L3) e (L2<>L3) ou (L2=L3) e (L1<>L3)
+
+      Escreval("Classificação quanto aos lados : ")
+      Escreval("Equilátero = 3 lados iguais")
+      Escreval("O triãngulo com lados :", L1, L2, " e", L3, " é Equilátero ?", Equ)
+      Escreval("Escaleno = 3 lados diferentes")
+      Escreval("O triãngulo com lados :", L1, L2, " e", L3, " é Escaleno ?", Esc)
+      Escreval("Isóscelos = 2 lados com a mesma medida")
+      Escreval("O triãngulo com lados :", L1, L2, " e", L3, " é Isósceles ?", Iso)
+      
+      // 19- Caso o triângulo do 16 possa ser formado,
       // verifique se ele atende as regra das somas dos
       // ângulos :
       
       //Soma dos ângulo internos é 180°
       
-      // 19- Caso o triângulo do 18 possa ser formado,
+      Escreval
+      Escreval("Verificando se o Triângulo atende a regra das soma dos ãngulos")
+      Escreval("Diga o ângulo de a : ")
+      Leia(angA)
+      Escreval("Diga o ângulo de b : ")
+      Leia(angB)
+      Escreval("Diga o ângulo de c : ")
+      Leia(angC)
+      
+      Soma  <- angA + angB + angC
+      Class <- angA + angB + angC = 180
+      Escreval("O Triãngulo atende a regras ?", angA, "+", angB, "+", angC, " é igual a",Soma, Class)
+      
+      // 20- Caso o triângulo do 18 possa ser formado,
       // classifique ele quanto ao ângulos agora em :
       // Acutângulo, Obtusângulo e Retângulo
       
@@ -184,4 +222,13 @@ inicio
       //Obtusângulo = 1 ângulo maior que 90°
       //Retângulo = 1 ângulo é igual a 90°
 
+      Escreval
+      Escreval("Classificação quanto aos ângulos : ")
+      Acu <- (angA<90) e (angB<90) e (angC<90)
+      Obt <- (angA>90) ou (angB>90) ou (angC>90)
+      Ret <- (angA = 90) ou (angB = 90) ou (angC = 90)
+      
+      Escreval("O Triângulo é Acutângulo ?", Acu)
+      Escreval("O Triângulo é Obtusângulo ?", Obt)
+      Escreval("O Triângulo é Retângulo ?", Ret)
 fimalgoritmo
