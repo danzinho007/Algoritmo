@@ -1,0 +1,34 @@
+Comandos :
+
+F8
+F9
+Ctrl = Copiar
+Ctrl T = Selecionar Tudo
+! depois Ctrl + Espaço
+
+Operadores Aritméticos : 
+( obs: Colocar em inicio )
+   Soma <- n1 + n2   // 5 + 2 = 7
+   Subt <- n1 - n2   // 5 - 2 = 3
+   Mult <- n1 * n2   // 5 * 2 = 10 e 5 * 3 = 15
+   Divi <- n1 / n2   // 5 / 2 = 2.5
+   DiIn <- n1 \ n2   // 5 / 2 = 2.5 ( parte inteira é 2 )
+   Expo <- n1 ^ n2   // 5² = 25 5³ = 5 x 5 x 5 > 125 ( 25 x 5 125)
+   Modu <- n1 % n2   // 5 / 2 = 2.5 com resto 1
+
+Funções Aritméticas :
+  Abs() = Valor Absoluto
+  Int() = Valor inteiro // Exemplo 2.5 Parte inteira é 2
+  RaizQ() = Raiz Quadrada
+
+Comandos do var :
+	Identificador <- tipo primitivo ( Inteiro, Real, Caractere e Lógico )
+
+Comandos do inicio :
+	Escreva("string", var) // Escrevendo algo na tela
+	Escreval("string", var) // Escrevando algo na tela e pulando linha
+	Leia(var) // Guardando algo na variávei
+	Identificador <- valor // Atribuíndo valores aos Identificadores
+
+Outras :
+  Seno, Cosseno, Tangente, Secante, Cossecante e Cotangente
