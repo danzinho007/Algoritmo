@@ -1,7 +1,6 @@
-Algoritmo "semnome"
+algoritmo "semnome"
+var
 
-Var
+inicio
 
-Inicio
-
-Fimalgoritmo
+fimalgoritmo
