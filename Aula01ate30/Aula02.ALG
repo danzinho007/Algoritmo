@@ -1,13 +1,13 @@
 Algoritmo "Aula 02"
 // Linguagem e L�gica de Programa��o 
-// Curso em V�deo 
+// Curso em V�deo
 
 Var
 //Var / Vari�veis s�o espaços na memória que v�o
 //guardar valores
    msg: Caractere
 Inicio
-      msg <- "Ol�, mundo!"
+      msg <- "Ola, mundo!"
 //msg est� recebendo a mensagem "Ol�,Mundo!"
       Escreval("msg")
 //Vai escrever o que ta pedindo : msg
