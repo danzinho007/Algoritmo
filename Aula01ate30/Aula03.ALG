@@ -1,23 +1,10 @@
 Algoritmo "semnome"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 05/01/2023
+
 Var
-// Seção de Declarações das variáveis 
    N1, N2, Soma, SubA, SubB, Mult, DiInA, DiInB: Inteiro
    ModuA, ModuB: Inteiro
    DiviA, DiviB, ExpoA, ExpoB: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   Escreval("Operadores Aritméticos")
-   Escreval("Aqui você irá saber o resultado da soma, subtração, multiplicação")
-   Escreval("divisão, divisão inteira, exponenciação e Módulo de 2 números")
-   Escreva("Informe um número ")
-   Leia(N1)
-   Escreva("Informe outro número ")
-   Leia(N2)
    //Operadores Aritméticos : 7
    //Sendo Ex A = 5 e B = 2
    //1-Adição + = A + B > 7
@@ -29,6 +16,13 @@ Inicio
    //6-Exponenciação ^ = A ^ B > 25
    //7-Módulo % = A % B > 1
    //Resto da Divisão 5 / 2
+   Escreval("Operadores Aritméticos")
+   Escreval("Aqui você irá saber o resultado da soma, subtração, multiplicação")
+   Escreval("divisão, divisão inteira, exponenciação e Módulo de 2 números")
+   Escreva("Informe um número ")
+   Leia(N1)
+   Escreva("Informe outro número ")
+   Leia(N2)
    Soma <- N1+ N2
    SubA <- N1 - N2
    SubB <- N2 - N1
