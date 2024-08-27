@@ -1,13 +1,9 @@
-Algoritmo "Descubra sua idade"
+Algoritmo "Dia 09"
 // Linguagem e Lógica de Programação
 // Curso em Vídeo 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 12/01/2023
 Var
 // Seção de Declarações das variáveis 
    AnoAtual, AnoNasci, Idade: Inteiro
-
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
    Escreval("Descubra aqui a sua idade")

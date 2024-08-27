@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "Dia 05"
 // Linguagem e Lógica de Programação
 // Curso em Vídeo 
 // Descrição   : Aqui você descreve o que o programa faz! (função)

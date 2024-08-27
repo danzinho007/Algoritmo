@@ -1,20 +1,22 @@
-Algoritmo "Aula 02"
-// Linguagem e Lï¿½gica de Programaï¿½ï¿½o 
-// Curso em Vïdeo
+Algoritmo "Dia 02"
 
 Var
-//Var / Variï¿½veis sï¿½o espaÃ§os na memÃ³ria que vï¿½o
-//guardar valores
    msg: Caractere
 Inicio
       msg <- "Ola, mundo!"
-//msg estï¿½ recebendo a mensagem "Olï¿½,Mundo!"
+//msg estï¿½ recebendo a mensagem "Olá,Mundo!"
       Escreval("msg")
 //Vai escrever o que ta pedindo : msg
       Escreval(msg)
-//Vai escrever o conteï¿½do da variï¿½vel msg
+//Vai escrever o conteudo da variavel msg
       Escreva("Senha aceita ", msg)
-//Vai escrever Mensagem dar um espaï¿½o e escrever o
-//conteï¿½do da variï¿½vel msg
+//Vai escrever Mensagem dar um espaco e escrever o
+//conteudo da variável msg
 
 Fimalgoritmo
+
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vïdeo
+
+//Var / Variï¿½veis sï¿½o espaÃ§os na memÃ³ria que vï¿½o
+//guardar valores

@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "Dia 03"
 
 Var
    N1, N2, Soma, SubA, SubB, Mult, DiInA, DiInB: Inteiro

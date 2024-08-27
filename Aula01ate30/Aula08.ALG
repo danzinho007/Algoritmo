@@ -1,15 +1,10 @@
-Algoritmo "semnome"
+Algoritmo "Dia 07"
 // Linguagem e Lógica de Programação
 // Curso em Vídeo 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 11/01/2023
 Var
-// Seção de Declarações das variáveis 
 //Tempo é uma palavra reservada
-   Capital, Taxa, Duracao, JurosS, JurosC, Montante, Final: Real
-
-
+   Capital, Taxa, Duracao, JurosS, JurosC: Real
+   Montante, Final: Real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 //Juros Simples = Capital * Taxa / 100 * Duracao
@@ -38,5 +33,4 @@ Inicio
    Escreval(" ")
    Escreval("O valor final da transição é de" , Montante, " reais ")
    Escreval("Juros acumulados após", Duracao, " anos é de", JurosC, " reais ")
-
 Fimalgoritmo

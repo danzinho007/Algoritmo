@@ -1,4 +1,4 @@
-Algoritmo "Triângulos"
+Algoritmo "Dia 06 Triângulos"
 // Linguagem e Lógica de Programação
 // Curso em Vídeo 
 // Descrição   : Aqui você descreve o que o programa faz! (função)

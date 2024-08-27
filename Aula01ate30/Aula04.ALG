@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "Dia 04"
 // Linguagem e Lógica de Programação
 // Curso em Vídeo 
 Var
