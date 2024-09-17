@@ -1,4 +1,6 @@
 Algoritmo "Soma de Valores 2"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Gustavo Guanabara 
 // Linguagem e Lógica de Programação
 // Curso em Vídeo
 // Descrição   : Aqui você descreve o que o programa faz! (função)

@@ -1,8 +1,6 @@
 Algoritmo "Equação do 2° Grau"
 // Linguagem e Lógica de Programação
 // Curso em Vídeo
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
 Var
    a1, b1, c1: Inteiro
    a2, b2, c2: Inteiro
@@ -24,7 +22,7 @@ Inicio
 	leia (c1)
 	Escreval ("-----------------------")
 	Escreval ("Sua equacao e: ", a1, "x2 +" , b1, "x +" , c1 , " = 0")
-	delta1 <- (b1*b1) - 4*a1*c1
+   delta1 <- (b1*b1) - 4*a1*c1
 	Escreval ("Valor de Delta: ", delta1: 4:2)
 	Escreval ("-----------------------")
 
@@ -33,7 +31,7 @@ Inicio
    senao
         Se (delta1 = 0) entao
 	     x1 <- (-b1 + raizQ(delta1)) / (2*a1)
-	        Escreval ("Para Delta zero, temos duas raizes reais iguais a", x1)
+	        Escreval ("Para Delta zero, temos duas raizes reais iguais a", x1:4:2)
         senao
              Se (delta1 > 0) entao
              x1 <- (-b1 + raizQ(delta1)) / (2*a1)
@@ -71,7 +69,7 @@ Inicio
    senao
         Se (delta2 = 0) entao
 	     x3 <- (-b2 + raizQ(delta2)) / (2*a2)
-	        Escreval ("Para Delta zero, temos duas raizes reais iguais a", x1)
+	        Escreval ("Para Delta zero, temos duas raizes reais iguais a", x2:4:2)
         senao
              Se (delta2 > 0) entao
              x3 <- (-b2 + raizQ(delta2)) / (2*a2)
@@ -109,7 +107,7 @@ Inicio
    senao
         Se (delta3 = 0) entao
 	     x1 <- (-b3 + raizQ(delta3)) / (2*a3)
-	        Escreval ("Para Delta zero, temos duas raizes reais iguais a", x1)
+	        Escreval ("Para Delta zero, temos duas raizes reais iguais a", x3:4:2)
         senao
              Se (delta3 > 0) entao
              x5 <- (-b3 + raizQ(delta3)) / (2*a3)
