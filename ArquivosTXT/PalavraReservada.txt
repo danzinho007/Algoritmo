@@ -1,7 +1,26 @@
 Palavra reservada :
 
+Caractere
+e
+enquanto ... faca ... fimenquanto
+escolha ... caso ... caso ... outrocaso ... fimescolha
 Escreva
 Escreval
+Inteiro
+Interrompa
+Leia
+Logico
+limpatela
+nao
+ou
+Para ... FimPara
+randi(x) < x pode ser um número aleatório
+Real
+Repita ... Ate
+Se ... FimSe 
+Se ... Senao ... FimSe
+Se ... Senao ... Se ... Senao ... FimSe... FimSe
+vetor
 
 ---Instagram---
 

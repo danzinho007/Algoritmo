@@ -1,0 +1,71 @@
+
+01- Escrever na tela 
+Portugol
+Python
+
+02- Guardar algo na variável e exibir na tela
+Portugol
+Python
+
+03- Operações Aritméticas : Adição, Subtração, Multiplicação, Divisão, Divisão Inteira, Exponenciação e Módulo
+Portugol
+Python
+
+04- Ângulo : Seno, Cosseno, Tangente, Secante, Cotangente e Cotangente
+Portugol
+
+05- Teste lógico : Maior ( > ), Menor ( < ), Igual ( = ), E, Ou, Não 
+Portugol
+
+06 - Triângulo : se existe, caso exista classificar quanto ao ângulo e lado 
+Portugol
+
+07- Juros Simples e Composto
+Portugol
+
+08- Soma de matriz 2x2 
+Portugol
+
+09- Descubra sua idade
+Portugol
+
+10- Conversor de moeda
+Portugol
+
+11- Conversor de temperatura
+Portugol
+
+12- Imposto
+Portugol
+
+13- Empréstimo
+Portugol
+
+14- Maioridade + Carteira de Motorista
+Portugol
+
+15- Divisibilidade e Primo
+Portugol
+
+16- IMC Índice de Massa Corporal
+Portugol
+
+17- Equação do 2° grau
+Portugol
+
+18- Média escolar com 2 notas
+Portugol
+
+19- Média escolar com 3 notas
+Portugol
+
+20- Área do Quadrado, Retângulo, Trapézio e Triângulo
+Portugol
+
+21- Perímetro do Retângulo
+Portugol
+
+22- Diagonal do Retângulo
+Portugol
+
+23- 

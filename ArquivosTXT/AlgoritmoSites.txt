@@ -3,6 +3,7 @@ Algoritmo sites :
 https://www.cursoemvideo.com/curso/curso-de-algoritmo/
 https://ead.napratica.org.br/enrollments/9396371/courses/84414
 https://gyncursos.com.br/course/curso-de-algoritmo-gratis-online/
+github.com/acenelio/curso-algoritmos
 
 Youtube Playlist :
 Desenvolvedores Full Stack
