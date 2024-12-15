@@ -7,9 +7,9 @@ inicio
 // Usar : 600 seg = 10 min
 // Usar : 3600 seg = 1 hora
 // Usar : 3700 seg = 61.67 min = 1.03 horas
-// Lembrando : 3600 é diferente de 3.600
-// O ponto no VisualG é vírgula
-// Logo 3.600 é 3.60 ou 3.6
+// Lembrando : 3600 e diferente de 3.600
+// O ponto no VisualG e virgula
+// Logo 3.600 e 3.60 ou 3.6
   Escreval("Horas em minutos e segundos")
   Escreva("Informe a hora que deseja saber : ")
   Leia(hora1)

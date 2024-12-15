@@ -17,7 +17,7 @@ Inicio
    Escreval(" ")
    Escreval("Sendo 1 Dólar = 3 Reais")
    Escreval(" ")
-   Enquanto ( cont <= n1 ) faça
+   Enquanto ( cont <= n1 ) faca
             Escreva("Digite aqui o valor que você deseja converter : R$ ")
             Leia (n2)
             cont <- cont + 1

@@ -1,17 +1,17 @@
 Algoritmo "Dia 04"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo 
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vï¿½deo 
 Var
-// Seção de Declarações das variáveis 
+// Secao de Declaraï¿½ï¿½es das variï¿½veis 
    angulo, Seno, Coss, Tang, Sec, Cosec, Cotg: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Secao de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
 
-//Funções Aritméticas
+//Funï¿½ï¿½es Aritmï¿½ticas
 //Valor Absoluto = Abs(-10) = 10
 //Valor positivo
-//Exponenciação = Exp(3,2) = 9
-//3² = 9
+//Exponenciaï¿½ï¿½o = Exp(3,2) = 9
+//3ï¿½ = 9
 //Valor Inteiro = Int(3.9) = 3
 //Somente a parte inteira
 //Raiz Quadrada = RaizQ(25) > 5
@@ -22,9 +22,9 @@ Inicio
 //Graus para Rad = GraupRad(30) > 0.523
 
    Escreval("Saiba o Seno, Cosseno, Tangente, Secante, Cossecante e Cotangente")
-   Escreva ("de qualquer ângulo")
+   Escreva ("de qualquer ï¿½ngulo")
    Escreval (" ")
-   Escreva ("Informe o ângulo ")
+   Escreva ("Informe o ï¿½ngulo ")
    Leia(angulo)
    Seno  <- Sen(GraupRad(angulo))
    Coss  <- Cos(GraupRad(angulo))
@@ -32,11 +32,11 @@ Inicio
    Sec   <- 1 / Coss
    Cosec <- 1 / Seno
    Cotg  <- 1 / Tang
-   Escreval("O seno de ", angulo, " é igual a " , Seno)
-   Escreval("O sosseno de ", angulo, " é igual a " , Coss)
-   Escreval("A tangente de ", angulo, " é igual a " , Tang)
-   Escreval("A secante de ", angulo, " é igual a " , Sec)
-   Escreval("A cossecante de ", angulo, " é igual a " , Cosec)
-   Escreval("A cotangente de ", angulo, " é igual a " , Cotg)
+   Escreval("O seno de ", angulo, " ï¿½ igual a " , Seno)
+   Escreval("O sosseno de ", angulo, " ï¿½ igual a " , Coss)
+   Escreval("A tangente de ", angulo, " ï¿½ igual a " , Tang)
+   Escreval("A secante de ", angulo, " ï¿½ igual a " , Sec)
+   Escreval("A cossecante de ", angulo, " ï¿½ igual a " , Cosec)
+   Escreval("A cotangente de ", angulo, " ï¿½ igual a " , Cotg)
    
 Fimalgoritmo

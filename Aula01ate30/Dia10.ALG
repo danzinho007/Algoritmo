@@ -1,21 +1,21 @@
 Algoritmo "Descubra sua idade"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vï¿½deo 
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 12/01/2023
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    AnoAtual, AnoNasci, Idade: Inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
    Escreval("Descubra aqui a sua idade")
-   Escreva("Digite em que ano você nasceu ")
+   Escreva("Digite em que ano voce nasceu ")
    Leia(AnoNasci)
-   Escreva("Digite agora o ano que nós estamos ")
+   Escreva("Digite agora o ano que nos estamos ")
    Leia(AnoAtual)
    Idade <- AnoAtual - AnoNasci
-   Escreval("Se você já fez aniversário, você tem", idade + 1, " anos")
-   Escreval("Caso contrário, você tem", idade , " anos ")
+   Escreval("Se vocï¿½ jï¿½ fez aniversï¿½rio, vocï¿½ tem", idade + 1, " anos")
+   Escreval("Caso contrï¿½rio, vocï¿½ tem", idade , " anos ")
 Fimalgoritmo

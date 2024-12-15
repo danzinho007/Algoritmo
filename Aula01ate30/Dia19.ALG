@@ -1,30 +1,30 @@
 Algoritmo "Dia 19"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo 
-//Exercício 1 : Fazer com a estrutura acima
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vï¿½deo 
+//Exercï¿½cio 1 : Fazer com a estrutura acima
 // ( Nota do Teste + Nota da Prova ) / 2
 //Selecionado >= 8 Exemplo 8 8 > 16/2 > 8
 //Passou >=6 e <7  Exemplo 6 6 > 12/2 > 6
 //Reprovado <6     Exemplo 5 5 > 10/2 > 5
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    t1, p1, media1: Real
    t2, p2, media2: Real
    t3, p3, media3: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
    Escreva ("Digite sua nota do Teste : ")
    Leia(t1)
    Escreva ("Digite agora sua da Prova : ")
    Leia(p1)
    media1 <- ( t1 + p1 ) / 2
    Se media1 >= 8 entao
-        Escreval("Parabéns, você foi selecionado com média", media1)
+        Escreval("Parabens, voce foi selecionado com mï¿½dia", media1)
         senao
         Se ( media1 >=6 ) e ( media1 <7 ) entao
-             Escreval("Você passou, pois ficou com média", media1)
+             Escreval("Voce passou, pois ficou com mï¿½dia", media1)
               senao
-              Escreval("Você foi reprovado, pois ficou com média", media1)
+              Escreval("Vocï¿½ foi reprovado, pois ficou com mï¿½dia", media1)
         FimSe
    FimSe
    Escreval("")
@@ -34,12 +34,12 @@ Inicio
    Leia(p2)
    media2 <- ( t2 + p2 ) / 2
    Se media2 >= 8 entao
-        Escreval("Parabéns, você foi selecionado com média", media2)
+        Escreval("Parabï¿½ns, vocï¿½ foi selecionado com mï¿½dia", media2)
         senao
         Se ( media2 >=6 ) e ( media2 <7 ) entao
-             Escreval("Você passou, pois ficou com média", media2)
+             Escreval("Vocï¿½ passou, pois ficou com mï¿½dia", media2)
               senao
-              Escreval("Você foi reprovado, pois ficou com média", media2)
+              Escreval("Vocï¿½ foi reprovado, pois ficou com mï¿½dia", media2)
         FimSe
    FimSe
    Escreval("")
@@ -49,12 +49,12 @@ Inicio
    Leia(p3)
    media3 <- ( t3 + p3 ) / 2
    Se media3 >= 8 entao
-        Escreval("Parabéns, você foi selecionado com média", media3)
+        Escreval("Parabï¿½ns, vocï¿½ foi selecionado com mï¿½dia", media3)
         senao
         Se ( media3 >=6 ) e ( media3 <7 ) entao
-             Escreval("Você passou, pois ficou com média", media3)
+             Escreval("Vocï¿½ passou, pois ficou com mï¿½dia", media3)
               senao
-              Escreval("Você foi reprovado, pois ficou com média", media3)
+              Escreval("Vocï¿½ foi reprovado, pois ficou com mï¿½dia", media3)
         FimSe
    FimSe
 Fimalgoritmo

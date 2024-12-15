@@ -14,14 +14,14 @@ inicio
 fimalgoritmo
 
 // Passa a passo :
-// 1- Declara variáveis
+// 1- Declara variaveis
 // 2- Vai pro inicio
 // Debug
 // F8 = Iniciar
 // CTRL + F = Parar
 // F5 = Marca / Desmcarca um breakpoint
 // Breakpoint = O programa parar na linha marcada
-// Duração :
+// Duracao :
 // 1 hora = 60 minutos = 3600 segundos
 // 0 hora =  1 minuto  =   60 segundos
 // 3600 seg > 1:0:0 hora

@@ -3,42 +3,42 @@ var
   i1, somaI, divI, divII: Inteiro
   d1, somaR, divR, divIR: Real
 // Soma = soma
-// O VisualG não é case sensitive, por isso não
-// podemos ter 2 variáveis com o mesmo nome mesmo
+// O VisualG nï¿½o ï¿½ case sensitive, por isso nï¿½o
+// podemos ter 2 variï¿½veis com o mesmo nome mesmo
 // que sejam diferentes
 inicio
-   Escreval("Operação com tipos de números")
-   Escreva("Informe um número inteiro : ")
+   Escreval("Operaï¿½ï¿½o com tipos de nï¿½meros")
+   Escreva("Informe um nï¿½mero inteiro : ")
    Leia(i1)
-   Escreva("Informe um número decimal : ")
+   Escreva("Informe um nï¿½mero decimal : ")
    Leia(d1)
    Escreval
-   Escreval("Adição")
+   Escreval("Adiï¿½ï¿½o")
 // somaI <- i1 + d1 ERRO !!!
-// Somar um número inteiro com real dá, só se o
-// resultado for um número Real
+// Somar um nï¿½mero inteiro com real dï¿½, sï¿½ se o
+// resultado for um nï¿½mero Real
    somaI <- i1 + int(d1) // Convertendo pra inteiro
    Escreval("A soma inteira vale : ", somaI)
    somaR <- i1 + d1
    Escreval("A soma decimal vale : ", somaR:2:2)
    Escreval
-   Escreval("Divisão")
-// Sinal "/" Divisão normal
+   Escreval("Divisï¿½o")
+// Sinal "/" Divisï¿½o normal
 // divI <- i1 / d1 ERRO !!!
-// Você está dividindo um inteiro com um número real
+// Voce esta dividindo um inteiro com um nï¿½mero real
 // divI <- i1 / int(d1) ERRO !!!
-// Mesmo convertendo na divisão não tem como, pois
-// a divisão tem como dar um número real
+// Mesmo convertendo na divisï¿½o nï¿½o tem como, pois
+// a divisao tem como dar um nï¿½mero real
    divR <- i1 / d1
-   Escreval("A divisão vale : ", divI)
-   Escreval("A divisão vale : ", divR:2:2)
+   Escreval("A divisao vale : ", divI)
+   Escreval("A divisao vale : ", divR:2:2)
    Escreval
-   Escreval("Divisão Inteira")
-// Sinal "\" Dividi pegando a parte inteira dos números
+   Escreval("Divisï¿½o Inteira")
+// Sinal "\" Dividi pegando a parte inteira dos nï¿½meros
 // divI <- i1 \ d1 ERRO !!
-// Está dividindo um número Inteiro com um número Real
+// Estï¿½ dividindo um nï¿½mero Inteiro com um nï¿½mero Real
    divII <- i1 \ int(d1)
    divIR <- i1 \ d1
-   Escreval("A divisão inteira vale : ", divII)
-   Escreval("A divisão decimal vale : ", divIR)
+   Escreval("A divisï¿½o inteira vale : ", divII)
+   Escreval("A divisï¿½o decimal vale : ", divIR)
 fimalgoritmo

@@ -1,78 +1,78 @@
 Algoritmo "Dia 14 Maioridade"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo 
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vï¿½deo 
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    AnoAtual1, AnoNasci1, Idade1: Inteiro
    AnoAtual2, AnoNasci2, Idade2: Inteiro
    AnoAtual3, AnoNasci3, Idade3: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
    Escreval("------------------------------------------")
    Escreval("---------------Maioridade-----------------")
    Escreval("------------------------------------------")
-   Escreva("Em que ano nós estamos ( yyyy ) : ")
+   Escreva("Em que ano nï¿½s estamos ( yyyy ) : ")
    Leia(AnoAtual1)
-   Escreva("Em que ano você nasceu ( yyyy ) : ")
+   Escreva("Em que ano vocï¿½ nasceu ( yyyy ) : ")
    Leia(AnoNasci1)
    Escreval(" ")
    Escreval("------------------------------------------")
-   Escreval("--------------Verificação-----------------")
+   Escreval("--------------Verificaï¿½ï¿½o-----------------")
    Escreval("------------------------------------------")
    Idade1 <-  AnoAtual1 - AnoNasci1
-   Escreval("Você tem", Idade1, " anos")
+   Escreval("Vocï¿½ tem", Idade1, " anos")
    Se ( AnoAtual1 - AnoNasci1 >= 18 )entao
-      Escreval("Logo é de maior e está apto a tirar carteira")
+      Escreval("Logo ï¿½ de maior e estï¿½ apto a tirar carteira")
    senao
         Se ( 1 + AnoAtual1 - AnoNasci1 >= 18 ) entao
-           Escreval("Esse ano após seu aniversário você será de maior e estará apto")
+           Escreval("Esse ano apï¿½s seu aniversï¿½rio vocï¿½ serï¿½ de maior e estarï¿½ apto")
            Escreval("a tirar carteira")
         senao
-      Escreval("Não será esse ano que você irá ser de maior")
+      Escreval("Nï¿½o serï¿½ esse ano que vocï¿½ irï¿½ ser de maior")
         FimSe
    FimSe
    Escreval(" ")
    Escreval("Teste 2")
-   Escreva("Em que ano nós estamos ( yyyy ) : ")
+   Escreva("Em que ano nï¿½s estamos ( yyyy ) : ")
    Leia(AnoAtual2)
-   Escreva("Em que ano você nasceu ( yyyy ) : ")
+   Escreva("Em que ano vocï¿½ nasceu ( yyyy ) : ")
    Leia(AnoNasci2)
    Escreval(" ")
    Escreval("------------------------------------------")
-   Escreval("--------------Verificação-----------------")
+   Escreval("--------------Verificacao-----------------")
    Escreval("------------------------------------------")
    Idade2 <-  AnoAtual2 - AnoNasci2
-   Escreval("Você tem", Idade2, " anos")
+   Escreval("Vocï¿½ tem", Idade2, " anos")
    Se ( AnoAtual2 - AnoNasci2 >= 18 )entao
-      Escreval("Logo é de maior e está apto a tirar carteira")
+      Escreval("Logo e de maior e esta apto a tirar carteira")
    senao
         Se ( 1 + AnoAtual2 - AnoNasci2 >= 18 ) entao
-           Escreval("Esse ano após seu aniversário você será de maior e estará apto")
+           Escreval("Esse ano apï¿½s seu aniversï¿½rio vocï¿½ serï¿½ de maior e estarï¿½ apto")
            Escreval("a tirar carteira")
         senao
-      Escreval("Não será esse ano que você irá ser de maior")
+      Escreval("Nï¿½o serï¿½ esse ano que vocï¿½ irï¿½ ser de maior")
         FimSe
    FimSe
    Escreval(" ")
    Escreval("Teste 3")
-   Escreva("Em que ano nós estamos ( yyyy ) : ")
+   Escreva("Em que ano nï¿½s estamos ( yyyy ) : ")
    Leia(AnoAtual3)
-   Escreva("Em que ano você nasceu ( yyyy ) : ")
+   Escreva("Em que ano vocï¿½ nasceu ( yyyy ) : ")
    Leia(AnoNasci3)
    Escreval(" ")
    Escreval("------------------------------------------")
-   Escreval("--------------Verificação-----------------")
+   Escreval("--------------Verificaï¿½ï¿½o-----------------")
    Escreval("------------------------------------------")
    Idade3 <-  AnoAtual3 - AnoNasci3
-   Escreval("Você tem", Idade3, " anos")
+   Escreval("Vocï¿½ tem", Idade3, " anos")
    Se ( AnoAtual3 - AnoNasci3 >= 18 )entao
-      Escreval("Logo é de maior e está apto a tirar carteira")
+      Escreval("Logo ï¿½ de maior e estï¿½ apto a tirar carteira")
    senao
         Se ( 1 + AnoAtual3 - AnoNasci3 >= 18 ) entao
-           Escreval("Esse ano após seu aniversário você será de maior e estará apto")
+           Escreval("Esse ano apï¿½s seu aniversï¿½rio vocï¿½ serï¿½ de maior e estarï¿½ apto")
            Escreval("a tirar carteira")
         senao
-      Escreval("Não será esse ano que você irá ser de maior")
+      Escreval("Nï¿½o serï¿½ esse ano que vocï¿½ irï¿½ ser de maior")
         FimSe
    FimSe
 Fimalgoritmo

@@ -1,20 +1,20 @@
 Algoritmo "Dia 10"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo 
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vï¿½deo 
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    Reais, Iene, Dolar, Euro, Libra: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
    Escreval("Conversor de Moedas do Mundo")
-   Escreva("Quantos reais você tem ")
+   Escreva("Quantos reais vocï¿½ tem ")
    Leia(Reais)
    Iene  <- ( Reais / 0.047 )
    Dolar <- ( Reais / 5.489 )
    Euro  <- ( Reais / 6.119 )
    Libra <- ( Reais / 7.224 )
-   Escreval("Você tem ", Iene:2:2, " ienes.")
-   Escreval("Você tem ", Dolar:2:2, " dólares.")
-   Escreval("Você tem ", Euro:2:2, " euros.")
-   Escreval("Você tem ", Libra:2:2, " libras.")
+   Escreval("Voce tem ", Iene:2:2, " ienes.")
+   Escreval("Voce tem ", Dolar:2:2, " dï¿½lares.")
+   Escreval("Voce tem ", Euro:2:2, " euros.")
+   Escreval("Voce tem ", Libra:2:2, " libras.")
 Fimalgoritmo

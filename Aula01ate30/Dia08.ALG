@@ -1,36 +1,36 @@
 Algoritmo "Dia 07"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo 
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vï¿½deo 
 Var
-//Tempo é uma palavra reservada
+//Tempo ï¿½ uma palavra reservada
    Capital, Taxa, Duracao, JurosS, JurosC: Real
    Montante, Final: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
 //Juros Simples = Capital * Taxa / 100 * Duracao
 //Juros Composto = Capital * ( 1 + Taxa / 100 ) Duracao
    Escreval("Juros Simples e Compostos")
    Escreval(" ")
-   Escreva("Quanto você pretende investir ou aplicar ? ")
+   Escreva("Quanto voce pretende investir ou aplicar ? ")
    Leia(Capital)
    Escreval(" ")
-   Escreval("Qual é a taxa de Juros ?")
+   Escreval("Qual e a taxa de Juros ?")
    Escreval("Se for investimento escreva na forma inteira")
-   Escreval("Se for aplicação escreva na forma decimal")
+   Escreval("Se for aplicaï¿½ï¿½o escreva na forma decimal")
    Leia(Taxa)
    Escreval(" ")
-   Escreval("Durante quanto tempo irá investir ?")
+   Escreval("Durante quanto tempo irï¿½ investir ?")
    Escreval ("Se for investimento escreva em meses por ano")
-   Escreval("Se for aplicação o tempo é em anos")
+   Escreval("Se for aplicaï¿½ï¿½o o tempo ï¿½ em anos")
    Leia(Duracao)
    JurosS <- Capital * Taxa / 100 * Duracao
    Montante <- Capital * ( 1 + Taxa ) ^ Duracao
    JurosC <- Montante - Capital
    Final <- Capital + JurosS
    Escreval(" ")
-   Escreval("Isso irá render ", JurosS, " reais ")
-   Escreval("No final você terá ", Final, " reais ")
+   Escreval("Isso irï¿½ render ", JurosS, " reais ")
+   Escreval("No final vocï¿½ terï¿½ ", Final, " reais ")
    Escreval(" ")
-   Escreval("O valor final da transição é de" , Montante, " reais ")
-   Escreval("Juros acumulados após", Duracao, " anos é de", JurosC, " reais ")
+   Escreval("O valor final da transiï¿½ï¿½o ï¿½ de" , Montante, " reais ")
+   Escreval("Juros acumulados apï¿½s", Duracao, " anos ï¿½ de", JurosC, " reais ")
 Fimalgoritmo

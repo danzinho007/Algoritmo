@@ -1,24 +1,40 @@
-Algoritmo "Teste de Mesa Manual"
+Algoritmo "Dia 48"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Gustavo Guanabara
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 14/12/2024
-Var
-   // Seção de Declarações das variáveis
-   x, y: inteiro
+// Linguagem e Lógica de Programação
 
-Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Teste de mesa manual")
-   x <- 0
-   y <- 4
-   enquanto x < 3 faca
-      y <- y + 2
-      x <- x + 1
-      escreval("")
-      escreval(" x -  y")
-      escreval(x," - ",y)
-      escreval("")
-   fimenquanto
-Fimalgoritmo
+// Ler 3 números, somá-los e mostrar o maior e menor
+
+// Exemplo :
+// Digite o 1° número : 2
+// Digite o 2° número : 4
+// A soma é : 6
+// O maior é : 4
+// O menor é : 2
+
+var
+    numero, soma, maior, menor, contador: inteiro
+inicio
+    soma <- 0
+    contador <- 1
+    Escreva("Digite o número 1 : ")
+    leia(numero)
+    maior <- numero
+    menor <- numero
+    soma <- soma + numero
+    Enquanto (contador < 3) faca
+        contador <- contador + 1
+        escreva("Digite o número", contador, " : ")
+        leia(numero)
+        soma <- soma + numero
+        se (numero > maior) entao
+            maior <- numero
+        Fimse
+        se (numero < menor) entao
+            menor <- numero
+        Fimse
+    FimEnquanto
+    Escreval("Soma dos números: ", soma)
+    Escreval("Maior número: ", maior)
+    Escreval("Menor número: ", menor)
+fimalgoritmo

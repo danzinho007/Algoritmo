@@ -29,10 +29,10 @@ Portugol
 09- Descubra sua idade
 Portugol
 
-10- Conversor de moeda
+10- Conversor de moeda ( real, dólar, iene, euro, libra )
 Portugol
 
-11- Conversor de temperatura
+11- Conversor de temperatura ( Celsius, Kelvin, Fahrenheint )
 Portugol
 
 12- Imposto
@@ -44,7 +44,7 @@ Portugol
 14- Maioridade + Carteira de Motorista
 Portugol
 
-15- Divisibilidade e Primo
+15- Divisibilidade e Primo ( ? )
 Portugol
 
 16- IMC Índice de Massa Corporal
@@ -53,10 +53,10 @@ Portugol
 17- Equação do 2° grau
 Portugol
 
-18- Média escolar com 2 notas
+18- Média escolar com 2 notas e 1 classificação
 Portugol
 
-19- Média escolar com 3 notas
+19- Média escolar com 3 classicacoes
 Portugol
 
 20- Área do Quadrado, Retângulo, Trapézio e Triângulo
@@ -65,7 +65,128 @@ Portugol
 21- Perímetro do Retângulo
 Portugol
 
-22- Diagonal do Retângulo
+21- Média de idade
+Portugol
+OK
+
+24- Area do Circulo ( Verificar se postei no Threads )
+Portugol
+OK
+
+23- Diagonal do Retângulo
 Portugol
 
-23- 
+23- Formatação
+Portugol
+
+24- Área do Trapézio
+Portugol
+
+25- Soma Inteira e decimal
+Portugol
+
+26- Divisão normal inteira e decimal
+Portugol
+
+27- Divisão inteira e decimal
+Portugol
+
+28- Dobro, triplo, quádruplo e quintuplo
+Portugol
+
+29- Atribuição
+Portugol
+
+30- Hora > Minuto ( Dia 26 )
+Portugol
+
+31- Hora > Segundos ( Dia 26 )
+Portugol
+
+32- Segundos > Hora ( Dia 26 )
+Portugol
+
+33- Segundos > Hora : Minuto : Segundo 
+Portugol
+OK 29
+
+33- Equação do 1° grau
+Portugol
+
+34- Expressões Lógicas : E, Ou, Não
+Portugol
+
+35- Hora do dia com 3 opções
+Portugol
+
+36- Menor e maior número com 3
+Portugol
+
+37- Fórmula Básica
+Portugol
+
+38- Mercado com 4 produtos e opção de Parar
+Portugol
+
+39- Múltiplos
+Portugol
+
+40- AUmento salarial
+Portugol
+
+41- Controle de vicio
+Portugol
+
+42- Descubra em qual Quadrante está o eixo 
+Portugol
+
+43- Criança Esperança
+Portugol
+
+44- Salários e dependentes
+Portugol
+
+45- Aproveitamento escolar A até F
+Portugol
+
+46- Gols de uma partida de futebol com 5 opções
+Portugol
+
+47- Contador +
+Portugol
+
+48- Contador -
+Portugol
+
+49- Contador inteligente + ou -
+Portugol
+
+50- Fibonacci
+Portugol
+
+51- Digitar 3 números e mostrar a soma, o maior e o menor ( Falta )
+Portugol
+
+52- Digitar 5 números e mostrar a soma, o maior e o menor 
+Portugol
+OK 47
+
+53- Digitar 10 números e mostrar a soma e o maior ( Falta  )
+Portugol
+
+54- Portugol vs Java
+Portugol
+
+55- Identificar tipo de conteúdo na variável (Falta)
+Portugol
+
+56- Folha de Pagamentos (Falta)
+Portugol
+
+57- Teste de Mesa Manual (Falta)
+Portugol
+
+58- Advinhe o número (VerifFaltaicar)
+Portugol
+
+59- 

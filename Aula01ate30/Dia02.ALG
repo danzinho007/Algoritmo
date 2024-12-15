@@ -4,19 +4,19 @@ Var
    msg: Caractere
 Inicio
       msg <- "Ola, mundo!"
-//msg estï¿½ recebendo a mensagem "Olá,Mundo!"
+//msg esta recebendo a mensagem "Ola,Mundo!"
       Escreval("msg")
 //Vai escrever o que ta pedindo : msg
       Escreval(msg)
 //Vai escrever o conteudo da variavel msg
       Escreva("Senha aceita ", msg)
 //Vai escrever Mensagem dar um espaco e escrever o
-//conteudo da variável msg
+//conteudo da variï¿½vel msg
 
 Fimalgoritmo
 
 // Linguagem e Lï¿½gica de Programaï¿½ï¿½o
-// Curso em Vïdeo
+// Curso em Vï¿½deo
 
 //Var / Variï¿½veis sï¿½o espaÃ§os na memÃ³ria que vï¿½o
 //guardar valores

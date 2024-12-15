@@ -1,11 +1,11 @@
 Algoritmo "Dia 17"
-// Linguagem e Lógica de Programação 
-// Curso em Vídeo 
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o 
+// Curso em Vï¿½deo 
 // Exemplos :
-// Delta positivo : x²-5x+6, Delta 1, x¹= 3 x² = 2
-// Delta positivo : x²-5x+3, Delta 13,x¹= 4.3 x² = 0.7
-// Delta = 0 :     4x²-4x+1, Delta 0, x = 0.5
-// Delta negativo : x²-4x+5, Delta -4
+// Delta positivo : xÂ²-5x+6, Delta 1, xï¿½= 3 xï¿½ = 2
+// Delta positivo : xÂ²-5x+3, Delta 13,xï¿½= 4.3 xï¿½ = 0.7
+// Delta = 0 :     4xÂ²-4x+1, Delta 0, x = 0.5
+// Delta negativo : xÂ²-4x+5, Delta -4
 Var
    a, b, c: Inteiro
    delta: Real

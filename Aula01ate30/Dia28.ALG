@@ -3,7 +3,7 @@ var
    a, b, x: Real
    c, d, y: Real
 inicio
-   Escreval("Equação do 1° grau")
+   Escreval("Equacao do primeiro grau")
    Escreval("ax + b = 0")
    Escreva("Informe o valor de a : ")
    Leia(a)
@@ -12,7 +12,7 @@ inicio
    x <- -b / a
    Escreval("O valor de x vale : ",x)
    Escreval
-   Escreval("Equação do 1° grau")
+   Escreval("Equacao do 1 grau")
    Escreval("ax + b = 0")
    Escreva("Informe o valor de a : ")
    Leia(c)

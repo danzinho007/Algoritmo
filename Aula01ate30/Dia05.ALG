@@ -1,16 +1,16 @@
 Algoritmo "Dia 05"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vï¿½deo 
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 07/01/2023
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    A, B, C: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   Escreval("Verificador de relações entre números")
-   Escreval("Digite 3 números e iremos verificar qual é o maior, qual é o menor")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
+   Escreval("Verificador de relaï¿½ï¿½es entre nï¿½meros")
+   Escreval("Digite 3 numeros e iremos verificar qual ï¿½ o maior, qual e o menor")
    Escreval(" e o do meio")
    Escreva("Informe o valor de A : ")
    Leia(A)
@@ -18,35 +18,35 @@ Inicio
    Leia(B)
    Escreva("Informe o valor de C : ")
    Leia(C)
-   Escreva("1°Teste: A é maior que B ?")
+   Escreva("1ï¿½Teste: A ï¿½ maior que B ?")
 	Escreval(A>B)
-	Escreva("2°Teste: B é maior que C ?")
+	Escreva("2ï¿½Teste: B ï¿½ maior que C ?")
 	Escreval(B>C)
-	Escreva("3°Teste: A é maior que C ?")
+	Escreva("3ï¿½Teste: A ï¿½ maior que C ?")
 	Escreval(A>C)
-	Escreva("4°Teste: A é igual a B ou C ?")
+	Escreva("4ï¿½Teste: A ï¿½ igual a B ou C ?")
 	Escreval(A=B e C)
-	Escreva("5°Teste: C é maior que A ?")
+	Escreva("5ï¿½Teste: C ï¿½ maior que A ?")
 	Escreval(C>A)
-	Escreva("6°Teste: C é maior que B ?")
+	Escreva("6ï¿½Teste: C ï¿½ maior que B ?")
 	Escreval(C>B)
-	Escreva("7°Teste: A é igual a B - 1 ?")
+	Escreva("7ï¿½Teste: A ï¿½ igual a B - 1 ?")
 	Escreval(A=B-1)
-	Escreva("8°Teste: A e igual a C - 2 ?")
+	Escreva("8ï¿½Teste: A e igual a C - 2 ?")
 	Escreval(A=C-2)
-	Escreva("9°Teste: B e igual a C - 1 ?")
+	Escreva("9ï¿½Teste: B e igual a C - 1 ?")
 	Escreval(B=C-1)
-	Escreva("10°Teste: C - 2 e igual a B - 1 ?")
+	Escreva("10ï¿½Teste: C - 2 e igual a B - 1 ?")
 	Escreval(C-2=B-1)
-	Escreva("11°Teste: A é igual a B - 1 e C - 2 ?")
+	Escreva("11ï¿½Teste: A ï¿½ igual a B - 1 e C - 2 ?")
 	Escreval((A=B-1) e (A=C-2))
-	Escreva("12°Teste: A é igual a B - 1 e C - 3 ?")
+	Escreva("12ï¿½Teste: A ï¿½ igual a B - 1 e C - 3 ?")
 	Escreval((A=B-1) e (A=C-3))
-	Escreva("13°Teste: A é igual a B - 1 ou C - 2 ?")
+	Escreva("13ï¿½Teste: A ï¿½ igual a B - 1 ou C - 2 ?")
 	Escreval((A=B-1) ou (A=C-2))
-	Escreva("14°Teste: Não A é igual a B - 1 ou C - 2 ?")
+	Escreva("14ï¿½Teste: Nï¿½o A ï¿½ igual a B - 1 ou C - 2 ?")
 	Escreval(nao((A=B-1) ou (A=C-2)))
-	Escreva("15°Teste: A² é igual a B + C + 5 ?")
+	Escreva("15ï¿½Teste: Aï¿½ ï¿½ igual a B + C + 5 ?")
 	Escreval(Exp(A,2)=B+C+5)
 
 Fimalgoritmo

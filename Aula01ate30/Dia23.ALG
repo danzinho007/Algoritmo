@@ -1,4 +1,4 @@
-algoritmo "Formatação"
+algoritmo "Formatacao"
 var
 
 inicio
@@ -21,4 +21,4 @@ fimalgoritmo
 // CTRL + T = Selecionar tudo
 // CTRL + V = Colar
 // CTRL + X = Recortar
-// ! depois CTRL + espaço = Esboço do algoritmo
+// ! depois CTRL + espaï¿½o = Esboï¿½o do algoritmo

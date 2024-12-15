@@ -1,91 +1,91 @@
 Algoritmo "Dia 18"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo 
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vï¿½deo 
 // -----------------------------
 //   Escola Javali Cansado
 //---------------------------
 //Primeira Nota : X
 //Segunda nota  : Y
 //--------- Status -------
-//Média :
+//Mï¿½dia :
 //Aprovado :
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    T1, P1, Media1: Real
    T2, P2, Media2: Real
    T3, P3, Media3: Real
    T4, P4, Media4: Real
    MediaF: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
    Escreval("-----------------------------------------")
    Escreval("-----------Escola Javali Cansado---------")
-   Escreval("-Onde Cansado não tem ninguém : Média 7 -")
+   Escreval("-Onde Cansado nï¿½o tem ninguï¿½m : Mï¿½dia 7 -")
    Escreval("-----------------------------------------")
-   Escreval("Qual foi a sua nota no Teste do 1° Bimestre ?")
+   Escreval("Qual foi a sua nota no Teste do 1ï¿½ Bimestre ?")
    Leia(T1)
-   Escreval("Qual foi a sua nota na Prova do 1° Bimestre ?")
+   Escreval("Qual foi a sua nota na Prova do 1ï¿½ Bimestre ?")
    Leia(P1)
    Media1 <- ( T1 + P1 ) / 2
    Se Media1 >= 7 entao
-      Escreval("Parabéns =D Você foi aprovado com média ", Media1)
+      Escreval("Parabï¿½ns =D Vocï¿½ foi aprovado com mï¿½dia ", Media1)
       senao
-      Escreval("Que pena =( Você foi reprovado com média ", Media1)
+      Escreval("Que pena =( Vocï¿½ foi reprovado com mï¿½dia ", Media1)
    FimSe
    Escreval(" ")
    Escreval("-----------------------------------------")
    Escreval("-----------Escola Javali Cansado---------")
-   Escreval("-Onde Cansado não tem ninguém : Média 7 -")
+   Escreval("-Onde Cansado nï¿½o tem ninguï¿½m : Mï¿½dia 7 -")
    Escreval("-----------------------------------------")
-   Escreval("Qual foi a sua nota no Teste do 2° Bimestre ?")
+   Escreval("Qual foi a sua nota no Teste do 2ï¿½ Bimestre ?")
    Leia(T2)
-   Escreval("Qual foi a sua nota na Prova do 2° Bimestre ?")
+   Escreval("Qual foi a sua nota na Prova do 2ï¿½ Bimestre ?")
    Leia(P2)
    Media2 <- ( T2 + P2 ) / 2
    Se Media2 >= 7 entao
-      Escreval("Parabéns =D Você foi aprovado com média ", Media2)
+      Escreval("Parabï¿½ns =D Vocï¿½ foi aprovado com mï¿½dia ", Media2)
       senao
-      Escreval("Que pena =( Você foi reprovado com média ", Media2)
+      Escreval("Que pena =( Vocï¿½ foi reprovado com mï¿½dia ", Media2)
    FimSe
    Escreval(" ")
    Escreval("-----------------------------------------")
    Escreval("-----------Escola Javali Cansado---------")
-   Escreval("-Onde Cansado não tem ninguém : Média 7 -")
+   Escreval("-Onde Cansado nao tem ninguem : Media 7 -")
    Escreval("-----------------------------------------")
-   Escreval("Qual foi a sua nota no Teste do 3° Bimestre ?")
+   Escreval("Qual foi a sua nota no Teste do 3ï¿½ Bimestre ?")
    Leia(T3)
-   Escreval("Qual foi a sua nota na Prova do 3° Bimestre ?")
+   Escreval("Qual foi a sua nota na Prova do 3ï¿½ Bimestre ?")
    Leia(P3)
    Media3 <- ( T3 + P3 ) / 2
    Se Media3 >= 7 entao
-      Escreval("Parabéns =D Você foi aprovado com média ", Media3)
+      Escreval("Parabï¿½ns =D Vocï¿½ foi aprovado com mï¿½dia ", Media3)
       senao
-      Escreval("Que pena =( Você foi reprovado com média ", Media3)
+      Escreval("Que pena =( Vocï¿½ foi reprovado com mï¿½dia ", Media3)
    FimSe
    Escreval(" ")
    Escreval("-----------------------------------------")
    Escreval("-----------Escola Javali Cansado---------")
-   Escreval("-Onde Cansado não tem ninguém : Média 7 -")
+   Escreval("-Onde Cansado nï¿½o tem ninguï¿½m : Mï¿½dia 7 -")
    Escreval("-----------------------------------------")
-   Escreval("Qual foi a sua nota no Teste do 4° Bimestre ?")
+   Escreval("Qual foi a sua nota no Teste do 4ï¿½ Bimestre ?")
    Leia(T4)
-   Escreval("Qual foi a sua nota na Prova do 4° Bimestre ?")
+   Escreval("Qual foi a sua nota na Prova do 4ï¿½ Bimestre ?")
    Leia(P4)
    Media4 <- ( T4 + P4 ) / 2
    Se Media4 >= 7 entao
-      Escreval("Parabéns =D Você foi aprovado com média ", Media4)
+      Escreval("Parabï¿½ns =D Vocï¿½ foi aprovado com mï¿½dia ", Media4)
       senao
-      Escreval("Que pena =( Você foi reprovado com média ", Media4)
+      Escreval("Que pena =( Vocï¿½ foi reprovado com mï¿½dia ", Media4)
    FimSe
    Escreval(" ")
    Escreval("-----------------------------------------")
    Escreval("Resultado FINAL : Escola Javali Cansado--")
-   Escreval("-Onde Cansado não tem ninguém : Média 7 -")
+   Escreval("-Onde Cansado nï¿½o tem ninguï¿½m : Mï¿½dia 7 -")
    Escreval("-----------------------------------------")
    MediaF <- ( Media1 + Media2 + Media3 + Media4 ) / 4
    Se MediaF >= 7 entao
-      Escreval("Parabéns =D Você foi aprovado com média final de ", MediaF)
+      Escreval("Parabï¿½ns =D Vocï¿½ foi aprovado com mï¿½dia final de ", MediaF)
       senao
-      Escreval("Que pena =( Você foi reprovado com média final de ", MediaF)
+      Escreval("Que pena =( Vocï¿½ foi reprovado com mï¿½dia final de ", MediaF)
    FimSe
 Fimalgoritmo

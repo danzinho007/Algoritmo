@@ -1,16 +1,16 @@
 Algoritmo "Dia 08"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vï¿½deo
 Var
-// Seção de Declarações das variáveis 
+// Secao de Declaraï¿½ï¿½es das variï¿½veis 
    A11, A12, A21, A22: Inteiro
    B11, B12, B21, B22: Inteiro
    S1, S2, S4, S5: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
    Escreval("Soma de Matrizes com 2 Linhas e 2 colunas ")
    Escreval("com matriz de 2 linhas e 2 colunas")
-   Escreval("A11 é = 1° linha 1° coluna")
+   Escreval("A11 e = 1 linha 1 coluna")
    Escreva("Digite o valor de A11 : ")
    Leia(A11)
    Escreva("Digite o valor de A12 : ")
@@ -35,8 +35,8 @@ Inicio
    S2 <- A12 + B12
    S4 <- A21 + B21
    S5 <- A22 + B22
-   Escreval("O valor da 1° Linha é ", S1, S2)
-   Escreval("O valor da 2° Linha é ", S4, S5)
+   Escreval("O valor da 1ï¿½ Linha ï¿½ ", S1, S2)
+   Escreval("O valor da 2ï¿½ Linha ï¿½ ", S4, S5)
    Escreval(S1, S2)
    Escreval(S4, S5)
 Fimalgoritmo

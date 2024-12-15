@@ -19,18 +19,18 @@ Var
 Inicio
    Escreval("Conversor de temperatura")
    Escreval(" ")
-   Escreval("Qual a temperatura em °C voce deseja saber em Kelvin e Fahrenheit ?")
+   Escreval("Qual a temperatura em ï¿½C voce deseja saber em Kelvin e Fahrenheit ?")
    Leia(Tc1)
    // Lembrando :
-   // Celsius ( °C ) para Kelvin ( K ) : K = C + 273 ou vice-versa
-   // Celsius ( °C ) para Fahrenheit ( Â°F ) : F = 1.8C + 3 ou
+   // Celsius ( Â°C ) para Kelvin ( K ) : K = C + 273 ou vice-versa
+   // Celsius ( Â°C ) para Fahrenheit ( Â°F ) : F = 1.8C + 3 ou
    //C = F - 32 
    //    ------
    //     1.8
    Tk1 <- Tc1 + 273
    Tf1 <- 1.8 * Tc1 + 32
    Escreval("A temperatura em Kelvin e de ", Tk1, " K ")
-   Escreval("A temperatura em Fahrenheit e de ", Tf1, " °F ")
+   Escreval("A temperatura em Fahrenheit e de ", Tf1, " Â°F ")
    Escreval(" ")
    Escreval("Qual a temperatura em K voce deseja saber em Celsius e Fahrenheit ?")
    Leia(Tk2)
@@ -39,16 +39,16 @@ Inicio
    // Kelvin para Fahrenheint : ( K - 273 ) * 1.8 + 32
    Tc2 <- Tk2 - 273
    Tf2 <- 1.8 * ( Tk2 - 273 ) + 32
-   Escreval("A temperatura em Celsius e de ", Tc2:4:1, " °C ")
-   Escreval("A temperatura em Fahrenheint e de ", Tf2:4:2, " °F ")
+   Escreval("A temperatura em Celsius e de ", Tc2:4:1, " Â°C ")
+   Escreval("A temperatura em Fahrenheint e de ", Tf2:4:2, " ï¿½F ")
    Escreval(" ")
-   Escreval("Qual a temperatura em °F deseja saber em Celsius e Kelvin ?")
+   Escreval("Qual a temperatura em ï¿½F deseja saber em Celsius e Kelvin ?")
    Leia(Tf3)
    // Lembrando :
    // Fahrenheint para Celsius : C = ( F - 32 ) / 1.8
    // Fahrenheint para Kelvin  : K = ( F - 32 ) * 5/9 + 273
    Tc3 <- ( Tf3 - 32 ) * 5 / 9
    Tk3 <- ( Tf3 - 32 ) * 5 / 9 + 273
-   Escreval("A temperatura em Celsius e de ", Tc3:4:2, " °C ")
+   Escreval("A temperatura em Celsius e de ", Tc3:4:2, " ï¿½C ")
    Escreval("A temperatura em Kelvin e de ", Tk3:4:2, " K ")
 Fimalgoritmo

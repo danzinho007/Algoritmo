@@ -1,25 +1,25 @@
 Algoritmo "Dia 13"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo 
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vï¿½deo 
 
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    Emprestimo, Parcelas, Juros, ValorParcelas, ValorTotal1, ValorTotal2: Real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   Escreval("Quanto você irá pegar de EmpréstimO ?")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
+   Escreval("Quanto voce ira pegar de EmprestimO ?")
    Leia(Emprestimo)
-   Escreval("Quantas parcelas você irá pagar ?")
-   Escreval("Não fuja, nós iremos atrás de você")
+   Escreval("Quantas parcelas vocï¿½ irï¿½ pagar ?")
+   Escreval("Nao fuja, nos iremos atras de voce")
    Leia(Parcelas)
-   Escreval("Qual a porcentagem dos juros ao mês ?")
+   Escreval("Qual a porcentagem dos juros ao mï¿½s ?")
    Leia(Juros)
    ValorParcelas <- Emprestimo / Parcelas * Juros  / 100
    ValorTotal1 <- Emprestimo / Parcelas * Juros  / 100 * Parcelas + Emprestimo
    ValorTotal2 <- ValorParcelas * Parcelas + Emprestimo
-   Escreval("O Valor das Parcelas será de", ValorParcelas)
-   Escreval("O Valor Total com Juros será de", ValorTotal1)
-   Escreval("o Valor Total com Juros será de", ValorTotal2)
+   Escreval("O Valor das Parcelas serï¿½ de", ValorParcelas)
+   Escreval("O Valor Total com Juros serï¿½ de", ValorTotal1)
+   Escreval("o Valor Total com Juros serï¿½ de", ValorTotal2)
 
 Fimalgoritmo

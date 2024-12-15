@@ -2,7 +2,7 @@ algoritmo "Dia 24"
 var
    B1, B2,a,areaT: Real
 inicio
-   Escreval("Formatação")
+   Escreval("Formatacao")
    Escreval("Teste",pi)
    Escreval("Teste",pi)
    Escreval("Teste ",pi)
@@ -10,7 +10,7 @@ inicio
    Escreval(" Teste",pi)
    Escreval(" Teste ",pi)
    Escreval
-   Escreval("Área do Trapézio")
+   Escreval("Area do Trapezio")
    Escreva("Informe a base maior : ")
    Leia(B1)
    Escreva("Informe a base menor : ")
@@ -18,6 +18,6 @@ inicio
    Escreva("Informe a altura : ")
    Leia(a)
    areaT <- ( B1 + B2 ) / 2 * a
-   Escreva("O Trapézio com bases ",B1," e ",B2)
-   Escreva(" com altura de",a," tem área de",areaT)
+   Escreva("O Trapï¿½zio com bases ",B1," e ",B2)
+   Escreva(" com altura de",a," tem ï¿½rea de",areaT)
 fimalgoritmo

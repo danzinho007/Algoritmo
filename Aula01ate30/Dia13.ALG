@@ -1,15 +1,15 @@
 Algoritmo "Dia 12"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo 
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vï¿½deo 
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    Valor, Imposto, Parcela: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   Escreval("Qual valor você deseja saber ? ")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
+   Escreval("Qual valor voce deseja saber ? ")
    Leia(Valor)
-   Escreval("Qual será o imposto ? " )
+   Escreval("Qual sera o imposto ? " )
    Leia(Imposto)
    Parcela <- Valor * Imposto / 100
-   Escreval("O valor de cada parcela será de", Parcela)
+   Escreval("O valor de cada parcela sera de", Parcela)
 Fimalgoritmo

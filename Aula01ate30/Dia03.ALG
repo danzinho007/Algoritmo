@@ -5,23 +5,23 @@ Var
    ModuA, ModuB: Inteiro
    DiviA, DiviB, ExpoA, ExpoB: Real
 Inicio
-   //Operadores Aritméticos : 7
+   //Operadores Aritmï¿½ticos : 7
    //Sendo Ex A = 5 e B = 2
-   //1-Adição + = A + B > 7
-   //2-Subtração - = A - B : 3
-   //3-Multiplicação * = A * B > 10
-   //4-Divisão / = A / B > 2.5
-   //5-Divisão Inteira \ = A \ B > 2
-   //Quociente da Divisão 5 / 2
-   //6-Exponenciação ^ = A ^ B > 25
-   //7-Módulo % = A % B > 1
-   //Resto da Divisão 5 / 2
-   Escreval("Operadores Aritméticos")
-   Escreval("Aqui você irá saber o resultado da soma, subtração, multiplicação")
-   Escreval("divisão, divisão inteira, exponenciação e Módulo de 2 números")
-   Escreva("Informe um número ")
+   //1-Adicao + = A + B > 7
+   //2-Subtracao - = A - B : 3
+   //3-Multiplicacao * = A * B > 10
+   //4-Divisï¿½o / = A / B > 2.5
+   //5-Divisï¿½o Inteira \ = A \ B > 2
+   //Quociente da Divisï¿½o 5 / 2
+   //6-Exponenciaï¿½ï¿½o ^ = A ^ B > 25
+   //7-Mï¿½dulo % = A % B > 1
+   //Resto da Divisï¿½o 5 / 2
+   Escreval("Operadores Aritmï¿½ticos")
+   Escreval("Aqui vocï¿½ irï¿½ saber o resultado da soma, subtraï¿½ï¿½o, multiplicaï¿½ï¿½o")
+   Escreval("divisï¿½o, divisï¿½o inteira, exponenciaï¿½ï¿½o e Mï¿½dulo de 2 nï¿½meros")
+   Escreva("Informe um nï¿½mero ")
    Leia(N1)
-   Escreva("Informe outro número ")
+   Escreva("Informe outro nï¿½mero ")
    Leia(N2)
    Soma <- N1+ N2
    SubA <- N1 - N2
@@ -35,22 +35,22 @@ Inicio
    ExpoB <- N2 ^ N1
    ModuA <- N1 % N2
    ModuB <- N2 % N1
-   Escreval("A soma é " ,Soma)
-   Escreval("A soma entre " , N1, " e " , N2, " é " , Soma)
+   Escreval("A soma ï¿½ " ,Soma)
+   Escreval("A soma entre " , N1, " e " , N2, " ï¿½ " , Soma)
    Escreval(" ")
-   Escreval("A subtração entre " , N1, " e " ,N2, " é ", SubA)
-   Escreval("A subtração entre " , N2, " e " ,N1, " é ", SubB)
+   Escreval("A subtraï¿½ï¿½o entre " , N1, " e " ,N2, " ï¿½ ", SubA)
+   Escreval("A subtraï¿½ï¿½o entre " , N2, " e " ,N1, " ï¿½ ", SubB)
    Escreval(" ")
-   Escreval("A multiplicação entre " , N1, " e " ,N2, " é ", Mult )
-   Escreval("A divisão entre " , N1, " e " ,N2, " é ", DiviA)
-   Escreval("A divisão entre " , N2, " e " ,N1, " é ", DiviB)
+   Escreval("A multiplicaï¿½ï¿½o entre " , N1, " e " ,N2, " ï¿½ ", Mult )
+   Escreval("A divisï¿½o entre " , N1, " e " ,N2, " ï¿½ ", DiviA)
+   Escreval("A divisï¿½o entre " , N2, " e " ,N1, " ï¿½ ", DiviB)
    Escreval(" ")
-   Escreval("A divisão inteira entre " , N1, " e " ,N2, " é ", DiInA)
-   Escreval("A divisão inteira entre " , N2, " e " ,N1, " é ", DiInB)
+   Escreval("A divisï¿½o inteira entre " , N1, " e " ,N2, " ï¿½ ", DiInA)
+   Escreval("A divisï¿½o inteira entre " , N2, " e " ,N1, " ï¿½ ", DiInB)
    Escreval(" ")
-   Escreval("A exponenciação  entre " , N1, " e " ,N2, " é ", ExpoA)
-   Escreval("A exponenciação  entre " , N2, " e " ,N1, " é ", ExpoB)
+   Escreval("A exponenciaï¿½ï¿½o  entre " , N1, " e " ,N2, " ï¿½ ", ExpoA)
+   Escreval("A exponenciaï¿½ï¿½o  entre " , N2, " e " ,N1, " ï¿½ ", ExpoB)
    Escreval(" ")
-   Escreval("O módulo entre " , N1, " e " ,N2, " é ", ModuA)
-   Escreval("O módulo entre " , N2, " e " ,N1, " é ", ModuB)
+   Escreval("O mï¿½dulo entre " , N1, " e " ,N2, " ï¿½ ", ModuA)
+   Escreval("O mï¿½dulo entre " , N2, " e " ,N1, " ï¿½ ", ModuB)
 Fimalgoritmo

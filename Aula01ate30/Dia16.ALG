@@ -1,11 +1,11 @@
 Algoritmo "Dia 16"
-// Linguagem e Lógica de Programação
-// Curso em Vídeo
-// Calcule o IMC ( Índice de Massa Corporal )
-// IMC = peso / ( altura² )
-// IMC = kg/m²
+// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Curso em Vï¿½deo
+// Calcule o IMC ( ï¿½ndice de Massa Corporal )
+// IMC = peso / ( alturaï¿½ )
+// IMC = kg/mï¿½
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    n1, n2, imc1: Real
    s1, s2, imc2: Real
    t1, t2, imc3: Real
@@ -13,8 +13,8 @@ Var
    v1, v2, imc5: Real
    x1, x2, imc6: Real
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Índice de Massa corporal")
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   Escreval("ï¿½ndice de Massa corporal")
    Escreva("Digite seu peso: ")
    Leia(n1)
    Escreva("Agora digite sua altura : ")
@@ -25,24 +25,24 @@ Inicio
    Escreval("18,5 a 24,8 = Ta no chape")
    Escreval("25 , a 29,9 = Ta godinho")
    Escreval("30 a 34,9 = ta gordo")
-   Escreval("35 a 39,9 = ta Godão")
+   Escreval("35 a 39,9 = ta Godï¿½o")
    Escreval("Maior que 40 = Quer infartar ?")
    Escreval("")
-   Escreval("Seu Índice de Massa Corporal é de", imc1, "kg/m²")
+   Escreval("Seu ï¿½ndice de Massa Corporal ï¿½ de", imc1, "kg/mï¿½")
    Se ( imc1 <= 18.5 ) entao
-      Escreval("Você é um Palito")
+      Escreval("Vocï¿½ ï¿½ um Palito")
    senao
       Se ( imc1 > 18.5 ) e ( imc1 <= 25 ) entao
-         Escreval("Você ta no chape")
+         Escreval("Vocï¿½ ta no chape")
       senao
          Se ( imc1 > 25 ) e ( imc1 <= 30 ) entao
-            Escreval("Você ta godinho")
+            Escreval("Vocï¿½ ta godinho")
          senao
             Se ( imc1 > 30 ) e ( imc1 <= 35 ) entao
-               Escreval("Você ta gordo")
+               Escreval("Vocï¿½ ta gordo")
             senao
                Se (imc1 > 35 ) e ( imc1 <= 40 ) entao
-                  Escreval("Você ta gordão")
+                  Escreval("Voce ta gordao")
                senao
                   Se ( imc1 > 40 ) entao
                      Escreval("Quer infartar ?")
@@ -57,7 +57,7 @@ Inicio
    Escreval("")
    Escreval("------------------------")
    Escreval("Segundo Teste : letra S ")
-   Escreval("Índice de Massa corporal")
+   Escreval("ï¿½ndice de Massa corporal")
    Escreva("Digite seu peso: ")
    Leia(s1)
    Escreva("Agora digite sua altura : ")
@@ -68,24 +68,24 @@ Inicio
    Escreval("18,5 a 24,8 = Ta no chape")
    Escreval("25 , a 29,9 = Ta godinho")
    Escreval("30 a 34,9 = ta gordo")
-   Escreval("35 a 39,9 = ta Godão")
+   Escreval("35 a 39,9 = ta Godï¿½o")
    Escreval("Maior que 40 = Quer infartar ?")
    Escreval("")
-   Escreval("Seu Índice de Massa Corporal é de ", imc2, "kg/m²")
+   Escreval("Seu ï¿½ndice de Massa Corporal ï¿½ de ", imc2, "kg/mï¿½")
    Se ( imc2 <= 18.5 ) entao
-      Escreval("Você é um Palito")
+      Escreval("Vocï¿½ ï¿½ um Palito")
    senao
       Se ( imc2 > 18.5 ) e ( imc2 <= 25 ) entao
-         Escreval("Você ta no chape")
+         Escreval("Vocï¿½ ta no chape")
       senao
          Se ( imc2 > 25 ) e ( imc2 <= 30 ) entao
-            Escreval("Você ta godinho")
+            Escreval("Vocï¿½ ta godinho")
          senao
             Se ( imc2 > 30 ) e ( imc2 <= 35 ) entao
-               Escreval("Você ta gordo")
+               Escreval("Vocï¿½ ta gordo")
             senao
                Se (imc2 > 35 ) e ( imc2 <= 40 ) entao
-                  Escreval("Você ta gordão")
+                  Escreval("Vocï¿½ ta gordï¿½o")
                senao
                   Se ( imc2 > 40 ) entao
                      Escreval("Quer infartar ?")
@@ -100,7 +100,7 @@ Inicio
    Escreval("")
    Escreval("------------------------")
    Escreval("Terceiro Teste : Letra T")
-   Escreval("Índice de Massa corporal")
+   Escreval("ï¿½ndice de Massa corporal")
    Escreva("Digite seu peso: ")
    Leia(t1)
    Escreva("Agora digite sua altura : ")
@@ -111,24 +111,24 @@ Inicio
    Escreval("18,5 a 24,8 = Ta no chape")
    Escreval("25 , a 29,9 = Ta godinho")
    Escreval("30 a 34,9 = ta gordo")
-   Escreval("35 a 39,9 = ta Godão")
+   Escreval("35 a 39,9 = ta Godï¿½o")
    Escreval("Maior que 40 = Quer infartar ?")
    Escreval("")
-   Escreval("Seu Índice de Massa Corporal é de ", imc3, "kg/m²")
+   Escreval("Seu ï¿½ndice de Massa Corporal ï¿½ de ", imc3, "kg/mï¿½")
    Se ( imc3 <= 18.5 ) entao
-      Escreval("Você é um Palito")
+      Escreval("Vocï¿½ ï¿½ um Palito")
    senao
       Se ( imc3 > 18.5 ) e ( imc3 <= 25 ) entao
-         Escreval("Você ta no chape")
+         Escreval("Vocï¿½ ta no chape")
       senao
          Se ( imc3 > 25 ) e ( imc3 <= 30 ) entao
-            Escreval("Você ta godinho")
+            Escreval("Vocï¿½ ta godinho")
          senao
             Se ( imc3 > 30 ) e ( imc3 <= 35 ) entao
-               Escreval("Você ta gordo")
+               Escreval("Vocï¿½ ta gordo")
             senao
                Se (imc3 > 35 ) e ( imc3 <= 40 ) entao
-                  Escreval("Você ta gordão")
+                  Escreval("Vocï¿½ ta gordï¿½o")
                senao
                   Se ( imc3 > 40 ) entao
                      Escreval("Quer infartar ?")
@@ -143,7 +143,7 @@ Inicio
    Escreval("")
    Escreval("------------------------")
    Escreval("Quarto Teste : letra U")
-   Escreval("Índice de Massa corporal")
+   Escreval("ï¿½ndice de Massa corporal")
    Escreva("Digite seu peso: ")
    Leia(u1)
    Escreva("Agora digite sua altura : ")
@@ -154,24 +154,24 @@ Inicio
    Escreval("18,5 a 24,8 = Ta no chape")
    Escreval("25 , a 29,9 = Ta godinho")
    Escreval("30 a 34,9 = ta gordo")
-   Escreval("35 a 39,9 = ta Godão")
+   Escreval("35 a 39,9 = ta Godï¿½o")
    Escreval("Maior que 40 = Quer infartar ?")
    Escreval("")
-   Escreval("Seu Índice de Massa Corporal é de ", imc4, "kg/m²")
+   Escreval("Seu ï¿½ndice de Massa Corporal ï¿½ de ", imc4, "kg/mï¿½")
    Se ( imc4 <= 18.5 ) entao
-      Escreval("Você é um Palito")
+      Escreval("Vocï¿½ ï¿½ um Palito")
    senao
       Se ( imc4 > 18.5 ) e ( imc4 <= 25 ) entao
-         Escreval("Você ta no chape")
+         Escreval("Vocï¿½ ta no chape")
       senao
          Se ( imc4 > 25 ) e ( imc4 <= 30 ) entao
-            Escreval("Você ta godinho")
+            Escreval("Vocï¿½ ta godinho")
          senao
             Se ( imc4 > 30 ) e ( imc4 <= 35 ) entao
-               Escreval("Você ta gordo")
+               Escreval("Vocï¿½ ta gordo")
             senao
                Se (imc4 > 35 ) e ( imc4 <= 40 ) entao
-                  Escreval("Você ta gordão")
+                  Escreval("Vocï¿½ ta gordï¿½o")
                senao
                   Se ( imc4 > 40 ) entao
                      Escreval("Quer infartar ?")
@@ -186,7 +186,7 @@ Inicio
    Escreval("")
    Escreval("------------------------")
    Escreval("Quinto Teste : letra V")
-   Escreval("Índice de Massa corporal")
+   Escreval("ï¿½ndice de Massa corporal")
    Escreva("Digite seu peso: ")
    Leia(v1)
    Escreva("Agora digite sua altura : ")
@@ -197,24 +197,24 @@ Inicio
    Escreval("18,5 a 24,8 = Ta no chape")
    Escreval("25 , a 29,9 = Ta godinho")
    Escreval("30 a 34,9 = ta gordo")
-   Escreval("35 a 39,9 = ta Godão")
+   Escreval("35 a 39,9 = ta Godï¿½o")
    Escreval("Maior que 40 = Quer infartar ?")
    Escreval("")
-   Escreval("Seu Índice de Massa Corporal é de ", imc5, "kg/m²")
+   Escreval("Seu ï¿½ndice de Massa Corporal ï¿½ de ", imc5, "kg/mï¿½")
    Se ( imc5 <= 18.5 ) entao
-      Escreval("Você é um Palito")
+      Escreval("Vocï¿½ ï¿½ um Palito")
    senao
       Se ( imc5 > 18.5 ) e ( imc5 <= 25 ) entao
-         Escreval("Você ta no chape")
+         Escreval("Vocï¿½ ta no chape")
       senao
          Se ( imc5 > 25 ) e ( imc5 <= 30 ) entao
-            Escreval("Você ta godinho")
+            Escreval("Vocï¿½ ta godinho")
          senao
             Se ( imc5 > 30 ) e ( imc5 <= 35 ) entao
-               Escreval("Você ta gordo")
+               Escreval("Vocï¿½ ta gordo")
             senao
                Se (imc5 > 35 ) e ( imc5 <= 40 ) entao
-                  Escreval("Você ta gordão")
+                  Escreval("Vocï¿½ ta gordï¿½o")
                senao
                   Se ( imc5 > 40 ) entao
                      Escreval("Quer infartar ?")
@@ -229,7 +229,7 @@ Inicio
    Escreval("")
    Escreval("------------------------")
    Escreval("Sexto Teste : letra X")
-   Escreval("Índice de Massa corporal")
+   Escreval("ï¿½ndice de Massa corporal")
    Escreva("Digite seu peso: ")
    Leia(x1)
    Escreva("Agora digite sua altura : ")
@@ -240,24 +240,24 @@ Inicio
    Escreval("18,5 a 24,8 = Ta no chape")
    Escreval("25 , a 29,9 = Ta godinho")
    Escreval("30 a 34,9 = ta gordo")
-   Escreval("35 a 39,9 = ta Godão")
+   Escreval("35 a 39,9 = ta Godï¿½o")
    Escreval("Maior que 40 = Quer infartar ?")
    Escreval("")
-   Escreval("Seu Índice de Massa Corporal é de ", imc6, "kg/m²")
+   Escreval("Seu ï¿½ndice de Massa Corporal ï¿½ de ", imc6, "kg/mï¿½")
    Se ( imc6 <= 18.5 ) entao
-      Escreval("Você é um Palito")
+      Escreval("Vocï¿½ ï¿½ um Palito")
    senao
       Se ( imc6 > 18.5 ) e ( imc6 <= 25 ) entao
-         Escreval("Você ta no chape")
+         Escreval("Vocï¿½ ta no chape")
       senao
          Se ( imc6 > 25 ) e ( imc6 <= 30 ) entao
-            Escreval("Você ta godinho")
+            Escreval("Vocï¿½ ta godinho")
          senao
             Se ( imc6 > 30 ) e ( imc6 <= 35 )entao
-               Escreval("Você ta gordo")
+               Escreval("Vocï¿½ ta gordo")
             senao
                Se (imc6 > 35 ) e ( imc6 <= 40 ) entao
-                  Escreval("Você ta gordão")
+                  Escreval("Vocï¿½ ta gordï¿½o")
                senao
                   Se ( imc6 > 40 ) entao
                      Escreval("Quer infartar ?")
