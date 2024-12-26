@@ -1,60 +1,62 @@
 
 01- Escrever na tela 
-Portugol
-Python
+Portugol ( Threads Dia 01 )
+Python ( Threads )
 
 02- Guardar algo na variável e exibir na tela
-Portugol
-Python
+Portugol ( Threads Dia 02 )
+Python ( Threads )
 
 03- Operações Aritméticas : Adição, Subtração, Multiplicação, Divisão, Divisão Inteira, Exponenciação e Módulo
-Portugol
-Python
+Portugol ( Threads Dia 03 )
+Python ( Threads )
 
 04- Ângulo : Seno, Cosseno, Tangente, Secante, Cotangente e Cotangente
-Portugol
+Portugol ( Threads Dia 04 )
 
 05- Teste lógico : Maior ( > ), Menor ( < ), Igual ( = ), E, Ou, Não 
-Portugol
+Portugol ( Threads Dia 05 )
 
 06 - Triângulo : se existe, caso exista classificar quanto ao ângulo e lado 
-Portugol
+Portugol ( Threads Dia 05 )
 
 07- Juros Simples e Composto
-Portugol
+Portugol ( Threads Dia 07 )
 
 08- Soma de matriz 2x2 
-Portugol
+Portugol ( Threads Dia 08 )
 
 09- Descubra sua idade
-Portugol
+Portugol ( Threads Dia 09 )
 
 10- Conversor de moeda ( real, dólar, iene, euro, libra )
-Portugol
+Portugol ( Threads Dia 10 )
+Python  ( Threads Dia 12 )
 
 11- Conversor de temperatura ( Celsius, Kelvin, Fahrenheint )
-Portugol
+Portugol ( Threads Dia 11 )
 
 12- Imposto
-Portugol
+Portugol ( Threads Dia 12 )
 
 13- Empréstimo
-Portugol
+Portugol ( Threads Dia 13 )
 
 14- Maioridade + Carteira de Motorista
-Portugol
+Portugol ( Threads Dia 14 )
 
-15- Divisibilidade e Primo ( ? )
-Portugol
+15- Divisibilidade e Primo
+Portugol ( Threads Dia 15 )
 
 16- IMC Índice de Massa Corporal
-Portugol
+Portugol ( Threads Dia 16 )
 
 17- Equação do 2° grau
-Portugol
+Portugol ( Threads Dia 17 )
 
 18- Média escolar com 2 notas e 1 classificação
-Portugol
+Portugol ( Threads Dia 18 )
+Python ( Threads Dia 09 ) Falta classificar !
 
 19- Média escolar com 3 classicacoes
 Portugol
