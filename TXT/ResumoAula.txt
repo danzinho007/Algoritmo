@@ -1,0 +1,226 @@
+Exercícios feito :
+Linguagem de Programação ( rede social + dia que foi postado )
+
+Observações :
+01-
+
+Lista :
+
+01- Escrever na tela 
+Portugol ( Threads Dia 01 )
+Python ( Threads )
+
+02- Guardar algo na variável e exibir na tela
+Portugol ( Threads Dia 02 )
+Python ( Threads )
+
+03- Operações Aritméticas : Adição, Subtração, Multiplicação, Divisão, Divisão Inteira, Exponenciação e Módulo
+Portugol ( Threads Dia 03 )
+Python ( Threads )
+
+04- Ângulo : Seno, Cosseno, Tangente, Secante, Cotangente e Cotangente
+Portugol ( Threads Dia 04 )
+
+05- Teste lógico : Maior ( > ), Menor ( < ), Igual ( = ), E, Ou, Não 
+Portugol ( Threads Dia 05 )
+
+06 - Triângulo : se existe, caso exista classificar quanto ao ângulo e lado 
+Portugol ( Threads Dia 06 )
+
+07- Juros Simples e Composto
+Portugol ( Threads Dia 07 )
+
+08- Soma de matriz 2x2 
+Portugol ( Threads Dia 08 )
+
+09- Descubra sua idade
+Portugol ( Threads Dia 09 )
+
+10- Conversor de moeda ( real, dólar, iene, euro, libra )
+Portugol ( Threads Dia 10 )
+Python  ( Threads Dia 12 )
+
+11- Conversor de temperatura ( Celsius, Kelvin, Fahrenheint )
+Portugol ( Threads Dia 11 )
+
+12- Imposto
+Portugol ( Threads Dia 12 )
+
+13- Empréstimo
+Portugol ( Threads Dia 13 )
+
+14- Maioridade + Carteira de Motorista 
+Portugol ( Threads Dia 14 Novidade : Se...senao...FimSe )
+
+15- Divisibilidade e Primo
+Portugol ( Threads Dia 15 )
+
+16- IMC Índice de Massa Corporal
+Portugol ( Threads Dia 16 )
+
+17- Equação do 2° grau
+Portugol ( Threads Dia 17 )
+
+18- Média escolar com 2 notas e 1 classificação
+Portugol ( Threads Dia 18 )
+Python ( Threads Dia 09 ) Falta classificar !
+
+19- Média escolar com 3 classicacoes
+Portugol ( Threads Dia 19 )
+
+20- Área do Quadrado, Retângulo, Trapézio e Triângulo
+Portugol ( Threads Dia 20 )
+
+21- Perímetro do Retângulo
+Portugol ( Threads Dia 20 )
+
+22- Média de idade
+Portugol ( Threads Dia 21 )
+OK
+
+23- Area do Circulo
+Portugol ( Threads Dia 22 )
+OK
+
+24- Diagonal do Retângulo
+Portugol ( Threads Dia 20 )
+
+25- Formatação
+Portugol ( Threads Dia 23 )
+
+26- Área do Trapézio
+Portugol ( Threads Dia 24 )
+
+27- Soma Inteira e decimal
+Portugol ( Threads Dia 25 )
+
+28- Divisão normal inteira e decimal
+Portugol ( Threads Dia 25 )
+
+29- Divisão inteira e decimal
+Portugol ( Threads Dia 25 )
+
+30- Dobro, triplo, quádruplo e quintuplo
+Portugol ( Threads Dia 26 )
+
+31- Hora > Minuto
+Portugol  ( Threads Dia 27 e 29 )
+
+32- Hora > Segundos ( Dia 27 e 29 )
+Portugol
+
+33- Segundos > Hora ( Dia 27 e 29)
+Portugol
+
+34- Segundos > Hora : Minuto : Segundo 
+Portugol ( Threads Dia 27 e 29 )
+
+35- Equação do 1° grau
+Portugol ( Threads Dia 28 )
+
+36- Expressões Lógicas : E, Ou, Não
+Portugol ( Threads Dia 30 )
+
+37- Hora do dia com 3 opções
+Portugol ( Threads Dia 31 )
+
+38- Menor e maior número com 3
+Portugol  ( Threads Dia 33 )
+
+39- Fórmula Básica
+Portugol ( Threads Dia 32 )
+
+40- Mercado com 4 produtos e opção de Parar
+Portugol ( Threads Dia 34 )
+
+41- Múltiplos
+Portugol ( Threads Dia 35 )
+
+42- AUmento salarial
+Portugol ( Threads Dia 36 )
+
+43- Controle de vicio
+Portugol ( Threads Dia 37 )
+
+44- Descubra em qual Quadrante está o eixo 
+Portugol ( Threads Dia 38 )
+
+45- Criança Esperança
+Portugol ( Threads Dia 39 Novidade : Escolha )
+
+46- Salários e dependentes
+Portugol ( Threads Dia 40 )
+
+47- Aproveitamento escolar A até F
+Portugol ( Threads Dia 41 )
+
+48- Gols de uma partida de futebol com 5 opções
+Portugol ( Threads Dia 42 )
+
+49- Contador +
+Portugol ( Threads Dia 43 )
+
+50- Contador -
+Portugol ( Threads Dia 44 )
+
+51- Contador inteligente + ou -
+Portugol ( Threads Dia 45 )
+
+52- Fibonacci
+Portugol ( Threads Dia 46 )
+
+53- Digitar 3 números e mostrar a soma, o maior e o menor
+Portugol
+
+54- Digitar 5 números e mostrar a soma, o maior e o menor 
+Portugol ( Threads Dia 47 )
+OK 47
+
+55- Digitar 10 números e mostrar a soma e o maior 
+Portugol
+
+56- Portugol vs Java
+Portugol ( Threads Dia 48 )
+
+57- Identificar tipo de conteúdo na variável
+Portugol
+
+58- Folha de Pagamentos
+Portugol
+
+59- Teste de Mesa Manual
+Portugol
+
+60- Advinhe o número 
+Aula 49
+Portugol
+
+61- Jogo da Memória 
+Aula50
+
+62- Super Contador 
+Aula 51 ( Renomear )
+Portugol ( Threads Dia 49 ) 
+
+63- Cadastramento
+Aula 52 ( Renomear )
+Portugol ( Threads Dia 50 )
+
+64- Contar 1 ate 10
+Aula 53 ( Renomear )
+Portugol ( Threads Dia 51 )
+
+65- Conversor dólar > real quantas quiser
+Portugol ( Threads Dia 52 )
+
+66- Maior nota 
+Portugol ( Threads Dia 53 )
+
+67- Maior e menor nota
+Portugol ( Threads Dia 54 )
+
+68-
+
+69-
+
+70-

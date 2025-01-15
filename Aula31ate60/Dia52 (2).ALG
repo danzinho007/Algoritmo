@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "Dia 52"
 // Linguagem e Lógica de Programação
 // Curso em Vídeo 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -18,7 +18,8 @@ Inicio
    Escreval("Sendo 1 Dólar = 3 Reais")
    Escreval(" ")
    Enquanto ( cont <= n1 ) faca
-            Escreva("Digite aqui o valor que você deseja converter : R$ ")
+            Escreva("Digite aqui o valor que você ")
+            Escreva("deseja converter : R$ ")
             Leia (n2)
             cont <- cont + 1
             conversao <- ( n2 * 1 ) / 3

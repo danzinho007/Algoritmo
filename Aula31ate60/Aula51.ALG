@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "Super Contador"
 // Linguagem e Lógica de Programação
 // Curso em Vídeo 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -30,5 +30,5 @@ Inicio
               FimSe
          FimSe
          cont <- cont + 1
-   Até ( n = 3 )
+   Ate( n = 3 )
 Fimalgoritmo

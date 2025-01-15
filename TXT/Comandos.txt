@@ -1,0 +1,19 @@
+Comandos do VisualG :
+Vi = 01,02,10,18,23,24,41,49,51,
+
+Caractere = 01
+Inteiro = 02,41,49,51,
+Real = 02,10,18,24,
+
+Escreva = 01,02,10,24,41,
+Escreval = 02,10,18,23,24,41,49,51
+
+Leia = 24,41,49,
+
+pi = 23,24,
+
+Se ... senao .. FimSe = 18,49,
+Escolha = 41
+Repita = 49,
+Para = 51,
+Enquanto = 52,53,54,
