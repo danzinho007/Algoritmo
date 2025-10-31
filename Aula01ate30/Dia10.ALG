@@ -1,21 +1,20 @@
-Algoritmo "Descubra sua idade"
+Algoritmo "Dia 10"
 // Linguagem e L�gica de Programa��o
 // Curso em V�deo 
-// Descri��o   : Aqui voc� descreve o que o programa faz! (fun��o)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 12/01/2023
 Var
 // Se��o de Declara��es das vari�veis 
-   AnoAtual, AnoNasci, Idade: Inteiro
-
+   Reais, Iene, Dolar, Euro, Libra: Real
 Inicio
 // Se��o de Comandos, procedimento, fun��es, operadores, etc... 
-   Escreval("Descubra aqui a sua idade")
-   Escreva("Digite em que ano voce nasceu ")
-   Leia(AnoNasci)
-   Escreva("Digite agora o ano que nos estamos ")
-   Leia(AnoAtual)
-   Idade <- AnoAtual - AnoNasci
-   Escreval("Se voc� j� fez anivers�rio, voc� tem", idade + 1, " anos")
-   Escreval("Caso contr�rio, voc� tem", idade , " anos ")
+   Escreval("Conversor de Moedas do Mundo")
+   Escreva("Quantos reais voc� tem ")
+   Leia(Reais)
+   Iene  <- ( Reais / 0.047 )
+   Dolar <- ( Reais / 5.489 )
+   Euro  <- ( Reais / 6.119 )
+   Libra <- ( Reais / 7.224 )
+   Escreval("Voce tem ", Iene:2:2, " ienes.")
+   Escreval("Voce tem ", Dolar:2:2, " d�lares.")
+   Escreval("Voce tem ", Euro:2:2, " euros.")
+   Escreval("Voce tem ", Libra:2:2, " libras.")
 Fimalgoritmo

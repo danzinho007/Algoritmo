@@ -13,8 +13,8 @@ Inicio
    //4-Divis�o / = A / B > 2.5
    //5-Divis�o Inteira \ = A \ B > 2
    //Quociente da Divis�o 5 / 2
-   //6-Exponencia��o ^ = A ^ B > 25
-   //7-M�dulo % = A % B > 1
+   //6-Exponenciacao ^ = A ^ B > 25
+   //7-Modulo % = A % B > 1
    //Resto da Divis�o 5 / 2
    Escreval("Operadores Aritm�ticos")
    Escreval("Aqui voc� ir� saber o resultado da soma, subtra��o, multiplica��o")
