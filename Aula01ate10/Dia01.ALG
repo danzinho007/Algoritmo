@@ -3,11 +3,10 @@ Algoritmo "Dia 01"
 Var
 
 Inicio
-      Escreva("Olá Mundo")
+      Escreva("Ola Mundo")
 Fimalgoritmo
 
-// Linguagem e Logica de Programação
-// Curso em Vídeo
+// Curso em Vï¿½deo
 
 //Variaveis :
 //indentificador : tipo
@@ -16,7 +15,7 @@ Fimalgoritmo
 
 //1-Deve comecar com uma letra
 //2-Os proximos caracteres podem ser letras ou numeros
-//3-Nao se pode utilizar nenhum sïmbolo, exceto _
+//3-Nao se pode utilizar nenhum sï¿½mbolo, exceto _
 //( underline )
 //4-Nao pode conter espacos em branco
 //5-Nao pode conter letras com acentos
@@ -26,15 +25,15 @@ Fimalgoritmo
 //Exercicios :
 
 //Nota1 = Pode ser
-//Média = Fere a regra 5
-//Salário Bruto = Fere a regra 4 e 5
+//Mï¿½dia = Fere a regra 5
+//Salï¿½rio Bruto = Fere a regra 4 e 5
 //9dade = Fere a regra 1
 //Algoritmo = Fere a regra 6
 //Inicio_Algoritmo
 
 //Tipos Primitivos :
 //OBS : Na Logica de Programacao nao se usa ,
-//( vïrgula ) ao inves disso usa-se . ( ponto )
+//( vï¿½rgula ) ao inves disso usa-se . ( ponto )
 
 //Inteiro : Ex -3,1,0,
 //Real 	: Ex 0.5, 5.0, -77.4, 3.1415 ( pi )

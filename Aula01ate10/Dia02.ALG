@@ -11,11 +11,10 @@ Inicio
 //Vai escrever o conteudo da variavel msg
       Escreva("Senha aceita ", msg)
 //Vai escrever Mensagem dar um espaco e escrever o
-//conteudo da vari�vel msg
+//conteudo da variavel msg
 
 Fimalgoritmo
 
-// Linguagem e L�gica de Programa��o
 // Curso em V�deo
 
 //Var / Vari�veis s�o espaços na memória que v�o
