@@ -1,67 +1,126 @@
-algoritmo "Dia 30"
-var
-   x: inteiro
-inicio
-  Escreval("Expressï¿½o Lï¿½gica : e")
-  Escreval("Sï¿½ ï¿½ Verdadeiro se todas condiï¿½ï¿½es forem V")
-  Escreval
-  x <- 5
-  Escreval("Sendo x = 5, temos : ")
-  Escreval("(x <= 20) e (x=10)")
-  Escreval("x ï¿½ menor ou igual que 20 ? Sim")
-  Escreval("x ï¿½ iguala  10 ? Nï¿½o")
-  Escreval("V e F = F")
-  Escreval((x <= 20) e (x = 10))
-  Escreval
-  Escreval("(x >0) e (x <> 3)")
-  Escreval("x e maior que 0 ? Sim")
-  Escreval("x e diferente de 3 ? Sim")
-  Escreval("V e V = V")
-  Escreval((x > 0) e (x <> 3))
-  Escreval
-  Escreval("Expressao Lï¿½gica : ou")
-  Escreval("Se 1 condicao for Verdadeira, logo ï¿½ V")
-  Escreval
-  Escreval("Sendo x = 5, temos : ")
-  Escreval("(x <= 20) ou (x=10)")
-  Escreval("x ï¿½ menor ou igual que 20 ? Sim")
-  Escreval("x ï¿½ iguala  10 ? Nï¿½o")
-  Escreval("V ou F = V")
-  Escreval((x <= 20) ou (x = 10))
-  Escreval
-  Escreval("(x >0) ou (x <> 3)")
-  Escreval("x ï¿½ maior que 0 ? Sim")
-  Escreval("x ï¿½ diferente de 3 ? Sim")
-  Escreval("V ou V = V")
-  Escreval((x > 0) ou (x <> 3))
-  Escreval
-  Escreval("Expressï¿½o Lï¿½gica : nï¿½o")
-  Escreval("Se 1 condiï¿½ï¿½o for Verdadeira, logo ï¿½ V")
-  Escreval
-  Escreval("Sendo x = 5, temos : ")
-  Escreval("nï¿½o(x <= 20) e (x=10)")
-  Escreval("x ï¿½ menor ou igual que 20 ? Sim")
-  Escreval("x ï¿½ iguala  10 ? Nï¿½o")
-  Escreval("nï¿½o(V e F) = nï¿½o(F) = V")
-  Escreval(nao((x <= 20) e (x = 10)))
-  Escreval
-  Escreval("(x >0) ou (x <> 3)")
-  Escreval("x ï¿½ maior que 0 ? Sim")
-  Escreval("x ï¿½ diferente de 3 ? Sim")
-  Escreval("Linha 51 : nï¿½o(V ou V) = nï¿½o(V) = F")
-  Escreval(nao((x > 0) ou (x <> 3)))
-  Escreval
-  Escreval("Cuidado com os () pois : ")
-  Escreval("nao((x > 0) ou (x <> 3)), ï¿½ diferente de ")
-  Escreval("nao (x > 0) ou (x <> 3)")
-  Escreval
-  Escreval("O primeiro resolve os parï¿½nteses, depois")
-  Escreval("o operador lï¿½gico e por fim o nï¿½o")
-  Escreval("Dando resultado da linha 51")
-  Escreval(nao((x > 0) ou (x <> 3)))
-  Escreval
-  Escreval("O segundo resolve os parï¿½nteses, ficando")
-  Escreval("nao(V) ou V, logo fica : F ou V")
-  Escreval("resultando em V")
-  Escreval(nao(x > 0) ou (x <> 3))
-fimalgoritmo
+Algoritmo "Dia 30"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Gustavo Guanabara 
+// Linguagem e Lógica de Programação
+//Exercício 4 : Aproveitamento de aluno
+//A = 10-9
+//B = 8-7
+//C = 6-5
+//D = 4-3
+//E = 2-1
+//F = Reprovado
+
+Var
+// Seção de Declarações das variáveis 
+   Media1, Media2, Media3: Inteiro
+   Media4, Media5, Media6: Inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   Escreva("Quanto você ficou na média ? (0 a 10)")
+   Leia(Media1)
+   Escolha Media1
+           Caso 1, 2
+           Escreval("Você ficou com rank E")
+           Caso 3, 4
+           Escreval("Você ficou com rank D"))
+           Caso 5, 6
+           Escreval("Você ficou com rank C"))
+           Caso 7, 8
+           Escreval("Você ficou com rank B")
+           Caso 9, 10
+           Escreval("Você ficou com rank A")
+           OutroCaso
+           Escreval("Você ficou com rank F")
+   FimEscolha
+   
+   Escreval(" ")
+   Escreva ("Quanto você ficou na média ? (0 a 10)")
+   Leia(Media2)
+   Escolha Media2
+           Caso 1, 2
+           Escreval("Você ficou com rank E")
+           Caso 3, 4
+           Escreval("Você ficou com rank D")
+           Caso 5, 6
+           Escreval("Você ficou com rank C"))
+           Caso 7, 8
+           Escreval("Você ficou com rank B")
+           Caso 9, 10
+           Escreval("Você ficou com rank A")
+           OutroCaso
+           Escreval("Você ficou com rank F")
+   FimEscolha
+
+   Escreval(" ")
+   Escreva ("Quanto você ficou na média ? (0 a 10)")
+   Leia(Media3)
+   Escolha Media3
+           Caso 1, 2
+           Escreval("Você ficou com rank E")
+           Caso 3, 4
+           Escreval("Você ficou com rank D")
+           Caso 5, 6
+           Escreval("Você ficou com rank C")
+           Caso 7, 8
+           Escreval("Você ficou com rank B")
+           Caso 9, 10
+           Escreval("Você ficou com rank A")
+           OutroCaso
+           Escreval("Você ficou com rank F")
+   FimEscolha
+
+   Escreval(" ")
+   Escreva ("Quanto você ficou na média ? (0 a 10)")
+   Leia(Media4)
+   Escolha Media4
+           Caso 1, 2
+           Escreval("Você ficou com rank E")
+           Caso 3, 4
+           Escreval("Você ficou com rank D")
+           Caso 5, 6
+           Escreval("Você ficou com rank C")
+           Caso 7, 8
+           Escreval("Você ficou com rank B")
+           Caso 9, 10
+           Escreval("Você ficou com rank A")
+           OutroCaso
+           Escreval("Você ficou com rank F")
+   FimEscolha
+
+   Escreval(" ")
+   Escreva ("Quanto você ficou na média ? (0 a 10)")
+   Leia(Media5)
+   Escolha Media5
+           Caso 1, 2
+           Escreval("Você ficou com rank E")
+           Caso 3, 4
+           Escreval("Você ficou com rank D")
+           Caso 5, 6
+           Escreval("Você ficou com rank C")
+           Caso 7, 8
+           Escreval("Você ficou com rank B")
+           Caso 9, 10
+           Escreval("Você ficou com rank A")
+           OutroCaso
+           Escreval("Você ficou com rank F")
+   FimEscolha
+
+   Escreval(" ")
+   Escreva ("Quanto você ficou na média ? (0 a 10)")
+   Leia(Media6)
+   Escolha Media6
+           Caso 1, 2
+           Escreval("Você ficou com rank E")
+           Caso 3, 4
+           Escreval("Você ficou com rank D")
+           Caso 5, 6
+           Escreval("Você ficou com rank C")
+           Caso 7, 8
+           Escreval("Você ficou com rank B")
+           Caso 9, 10
+           Escreval("Você ficou com rank A")
+           OutroCaso
+           Escreval("Você ficou com rank F")
+   FimEscolha
+
+Fimalgoritmo

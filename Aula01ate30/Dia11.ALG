@@ -19,7 +19,7 @@ Var
 Inicio
    Escreval("Conversor de temperatura")
    Escreval(" ")
-   Escreval("Qual a temperatura em ï¿½C voce deseja saber em Kelvin e Fahrenheit ?")
+   Escreval("Qual a temperatura em °C voce deseja saber em Kelvin e Fahrenheit ?")
    Leia(Tc1)
    // Lembrando :
    // Celsius ( Â°C ) para Kelvin ( K ) : K = C + 273 ou vice-versa
@@ -42,7 +42,7 @@ Inicio
    Escreval("A temperatura em Celsius e de ", Tc2:4:1, " Â°C ")
    Escreval("A temperatura em Fahrenheint e de ", Tf2:4:2, " ï¿½F ")
    Escreval(" ")
-   Escreval("Qual a temperatura em ï¿½F deseja saber em Celsius e Kelvin ?")
+   Escreval("Qual a temperatura em °F deseja saber em Celsius e Kelvin ?")
    Leia(Tf3)
    // Lembrando :
    // Fahrenheint para Celsius : C = ( F - 32 ) / 1.8

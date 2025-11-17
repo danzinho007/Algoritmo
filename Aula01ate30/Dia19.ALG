@@ -1,60 +1,57 @@
-Algoritmo "Dia 19"
-// Linguagem e Lï¿½gica de Programaï¿½ï¿½o
-// Curso em Vï¿½deo 
-//Exercï¿½cio 1 : Fazer com a estrutura acima
-// ( Nota do Teste + Nota da Prova ) / 2
-//Selecionado >= 8 Exemplo 8 8 > 16/2 > 8
-//Passou >=6 e <7  Exemplo 6 6 > 12/2 > 6
-//Reprovado <6     Exemplo 5 5 > 10/2 > 5
+Algoritmo "Dia 20"
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
+
 Var
-// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
-   t1, p1, media1: Real
-   t2, p2, media2: Real
-   t3, p3, media3: Real
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
+// Usando :
+// b = base / a = altura / m = metro quadrado
+// s = area / p = perïmetro / d = diagonal
+// Tb1 = base maior / Tb2 = base menor
+   Qb, Qa, Qm, Qs, Qp: Real
+   Rb, Ra, Rv, Rp, Rd: Real
+   Tb1, Tb2, Ta1, Ts1: Real
+   Ta, Tb, Ts: Real
 Inicio
 // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
-   Escreva ("Digite sua nota do Teste : ")
-   Leia(t1)
-   Escreva ("Digite agora sua da Prova : ")
-   Leia(p1)
-   media1 <- ( t1 + p1 ) / 2
-   Se media1 >= 8 entao
-        Escreval("Parabens, voce foi selecionado com mï¿½dia", media1)
-        senao
-        Se ( media1 >=6 ) e ( media1 <7 ) entao
-             Escreval("Voce passou, pois ficou com mï¿½dia", media1)
-              senao
-              Escreval("Vocï¿½ foi reprovado, pois ficou com mï¿½dia", media1)
-        FimSe
-   FimSe
+   Escreval("Area do Quadrado")
+   Escreva("Informe a base : ")
+   Leia(Qb)
+   Escreva("Informe a altura: ")
+   Leia(Qa)
+   Escreva("Informe o valor do metro quadrado: ")
+   Leia(Qm)
+   Qs <- Qb * Qa
+   Qp <- Qs * Qm
+   Escreval("A area e :", Qs, " m2")
+   Escreval("O preï¿½o da ï¿½rea ï¿½ : R$", Qp:4:2)
    Escreval("")
-   Escreva ("Digite sua nota do Teste : ")
-   Leia(t2)
-   Escreva ("Digite agora sua da Prova : ")
-   Leia(p2)
-   media2 <- ( t2 + p2 ) / 2
-   Se media2 >= 8 entao
-        Escreval("Parabï¿½ns, vocï¿½ foi selecionado com mï¿½dia", media2)
-        senao
-        Se ( media2 >=6 ) e ( media2 <7 ) entao
-             Escreval("Vocï¿½ passou, pois ficou com mï¿½dia", media2)
-              senao
-              Escreval("Vocï¿½ foi reprovado, pois ficou com mï¿½dia", media2)
-        FimSe
-   FimSe
+   Escreval("ï¿½rea do Retï¿½ngulo")
+   Escreva("Informe a base : ")
+   Leia(Rb)
+   Escreva("Informe a altura : ")
+   Leia(Ra)
+   Rv <- Rb * Ra
+   Rp <- ( Rb * 2 ) + ( Ra * 2 )
+   Rd <- RaizQ((Rb * Rb)+(Ra * Ra))
+   Escreval("A ï¿½rea ï¿½ :", Rv)
+   Escreval("O perï¿½metro ï¿½ :", Rp)
+   Escreval("A diagonal mede :", Rd:4:2)
    Escreval("")
-   Escreva ("Digite sua nota do Teste : ")
-   Leia(t3)
-   Escreva ("Digite agora sua da Prova : ")
-   Leia(p3)
-   media3 <- ( t3 + p3 ) / 2
-   Se media3 >= 8 entao
-        Escreval("Parabï¿½ns, vocï¿½ foi selecionado com mï¿½dia", media3)
-        senao
-        Se ( media3 >=6 ) e ( media3 <7 ) entao
-             Escreval("Vocï¿½ passou, pois ficou com mï¿½dia", media3)
-              senao
-              Escreval("Vocï¿½ foi reprovado, pois ficou com mï¿½dia", media3)
-        FimSe
-   FimSe
+   Escreval("ï¿½rea do Trapï¿½zio")
+   Escreva("Informe a base maior : ")
+   Leia(Tb1)
+   Escreva("Informa a base menor : ")
+   Leia(Tb2)
+   Escreva("Informe a altura : ")
+   Leia(Ta1)
+   Ts1 <- (( Tb1 + Tb2 ) * Ta1 ) / 2
+   Escreval("A ï¿½rea vale :", Ts1, " mï¿½")
+   Escreval("")
+   Escreval("ï¿½rea do Triï¿½ngulo")
+   Escreva("Informe a base : ")
+   Leia(Tb)
+   Escreva("Informe a altura : ")
+   Leia(Ta)
+   Ta <- ( Tb * Ta / 2 )
+   Escreval("A ï¿½rea vale :", Ta, " mï¿½")
 Fimalgoritmo

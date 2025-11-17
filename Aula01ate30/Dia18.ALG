@@ -1,91 +1,60 @@
-Algoritmo "Dia 18"
+Algoritmo "Dia 19"
 // Linguagem e L�gica de Programa��o
 // Curso em V�deo 
-// -----------------------------
-//   Escola Javali Cansado
-//---------------------------
-//Primeira Nota : X
-//Segunda nota  : Y
-//--------- Status -------
-//M�dia :
-//Aprovado :
+//Exerc�cio 1 : Fazer com a estrutura acima
+// ( Nota do Teste + Nota da Prova ) / 2
+//Selecionado >= 8 Exemplo 8 8 > 16/2 > 8
+//Passou >=6 e <7  Exemplo 6 6 > 12/2 > 6
+//Reprovado <6     Exemplo 5 5 > 10/2 > 5
 Var
 // Se��o de Declara��es das vari�veis 
-   T1, P1, Media1: Real
-   T2, P2, Media2: Real
-   T3, P3, Media3: Real
-   T4, P4, Media4: Real
-   MediaF: Real
+   t1, p1, media1: Real
+   t2, p2, media2: Real
+   t3, p3, media3: Real
 Inicio
 // Se��o de Comandos, procedimento, fun��es, operadores, etc... 
-   Escreval("-----------------------------------------")
-   Escreval("-----------Escola Javali Cansado---------")
-   Escreval("-Onde Cansado n�o tem ningu�m : M�dia 7 -")
-   Escreval("-----------------------------------------")
-   Escreval("Qual foi a sua nota no Teste do 1� Bimestre ?")
-   Leia(T1)
-   Escreval("Qual foi a sua nota na Prova do 1� Bimestre ?")
-   Leia(P1)
-   Media1 <- ( T1 + P1 ) / 2
-   Se Media1 >= 7 entao
-      Escreval("Parab�ns =D Voc� foi aprovado com m�dia ", Media1)
-      senao
-      Escreval("Que pena =( Voc� foi reprovado com m�dia ", Media1)
+   Escreva ("Digite sua nota do Teste : ")
+   Leia(t1)
+   Escreva ("Digite agora sua da Prova : ")
+   Leia(p1)
+   media1 <- ( t1 + p1 ) / 2
+   Se media1 >= 8 entao
+        Escreval("Parabens, voce foi selecionado com m�dia", media1)
+        senao
+        Se ( media1 >=6 ) e ( media1 <7 ) entao
+             Escreval("Voce passou, pois ficou com m�dia", media1)
+              senao
+              Escreval("Voc� foi reprovado, pois ficou com m�dia", media1)
+        FimSe
    FimSe
-   Escreval(" ")
-   Escreval("-----------------------------------------")
-   Escreval("-----------Escola Javali Cansado---------")
-   Escreval("-Onde Cansado n�o tem ningu�m : M�dia 7 -")
-   Escreval("-----------------------------------------")
-   Escreval("Qual foi a sua nota no Teste do 2� Bimestre ?")
-   Leia(T2)
-   Escreval("Qual foi a sua nota na Prova do 2� Bimestre ?")
-   Leia(P2)
-   Media2 <- ( T2 + P2 ) / 2
-   Se Media2 >= 7 entao
-      Escreval("Parab�ns =D Voc� foi aprovado com m�dia ", Media2)
-      senao
-      Escreval("Que pena =( Voc� foi reprovado com m�dia ", Media2)
+   Escreval("")
+   Escreva ("Digite sua nota do Teste : ")
+   Leia(t2)
+   Escreva ("Digite agora sua da Prova : ")
+   Leia(p2)
+   media2 <- ( t2 + p2 ) / 2
+   Se media2 >= 8 entao
+        Escreval("Parab�ns, voc� foi selecionado com m�dia", media2)
+        senao
+        Se ( media2 >=6 ) e ( media2 <7 ) entao
+             Escreval("Voc� passou, pois ficou com m�dia", media2)
+              senao
+              Escreval("Voc� foi reprovado, pois ficou com m�dia", media2)
+        FimSe
    FimSe
-   Escreval(" ")
-   Escreval("-----------------------------------------")
-   Escreval("-----------Escola Javali Cansado---------")
-   Escreval("-Onde Cansado nao tem ninguem : Media 7 -")
-   Escreval("-----------------------------------------")
-   Escreval("Qual foi a sua nota no Teste do 3� Bimestre ?")
-   Leia(T3)
-   Escreval("Qual foi a sua nota na Prova do 3� Bimestre ?")
-   Leia(P3)
-   Media3 <- ( T3 + P3 ) / 2
-   Se Media3 >= 7 entao
-      Escreval("Parab�ns =D Voc� foi aprovado com m�dia ", Media3)
-      senao
-      Escreval("Que pena =( Voc� foi reprovado com m�dia ", Media3)
-   FimSe
-   Escreval(" ")
-   Escreval("-----------------------------------------")
-   Escreval("-----------Escola Javali Cansado---------")
-   Escreval("-Onde Cansado n�o tem ningu�m : M�dia 7 -")
-   Escreval("-----------------------------------------")
-   Escreval("Qual foi a sua nota no Teste do 4� Bimestre ?")
-   Leia(T4)
-   Escreval("Qual foi a sua nota na Prova do 4� Bimestre ?")
-   Leia(P4)
-   Media4 <- ( T4 + P4 ) / 2
-   Se Media4 >= 7 entao
-      Escreval("Parab�ns =D Voc� foi aprovado com m�dia ", Media4)
-      senao
-      Escreval("Que pena =( Voc� foi reprovado com m�dia ", Media4)
-   FimSe
-   Escreval(" ")
-   Escreval("-----------------------------------------")
-   Escreval("Resultado FINAL : Escola Javali Cansado--")
-   Escreval("-Onde Cansado n�o tem ningu�m : M�dia 7 -")
-   Escreval("-----------------------------------------")
-   MediaF <- ( Media1 + Media2 + Media3 + Media4 ) / 4
-   Se MediaF >= 7 entao
-      Escreval("Parab�ns =D Voc� foi aprovado com m�dia final de ", MediaF)
-      senao
-      Escreval("Que pena =( Voc� foi reprovado com m�dia final de ", MediaF)
+   Escreval("")
+   Escreva ("Digite sua nota do Teste : ")
+   Leia(t3)
+   Escreva ("Digite agora sua da Prova : ")
+   Leia(p3)
+   media3 <- ( t3 + p3 ) / 2
+   Se media3 >= 8 entao
+        Escreval("Parab�ns, voc� foi selecionado com m�dia", media3)
+        senao
+        Se ( media3 >=6 ) e ( media3 <7 ) entao
+             Escreval("Voc� passou, pois ficou com m�dia", media3)
+              senao
+              Escreval("Voc� foi reprovado, pois ficou com m�dia", media3)
+        FimSe
    FimSe
 Fimalgoritmo

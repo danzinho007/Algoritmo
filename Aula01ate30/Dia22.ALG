@@ -1,20 +1,23 @@
-algoritmo "semnome"
+algoritmo "Dia 22"
 var
-   r1, r2, areaC: Real
+   B1, B2,a,areaT: Real
 inicio
-   Escreval("�rea do C�rculo")
-   Escreval("Sendo pi = 3.14159")
-   Escreva("Informe o valor do raio : ")
-   Leia(r1)
-   areaC <- pi * ( Exp(r1,2) )
-   Escreva("A �rea do C�rculo de raio", r1," � ")
-   Escreval(areaC:2:3)
-   Escreval("")
-   Escreval("�rea do C�rculo")
-   Escreval("Sendo pi = 3.14159")
-   Escreva("Informe o valor do raio : ")
-   Leia(r2)
-   areaC <- pi * ( Exp(r2,2) )
-   Escreva("A area do Circulo de raio", r2," � ")
-   Escreval(areaC:2:3)
+   Escreval("Formatacao")
+   Escreval("Teste",pi)
+   Escreval("Teste",pi)
+   Escreval("Teste ",pi)
+   Escreval("Teste ", pi)
+   Escreval(" Teste",pi)
+   Escreval(" Teste ",pi)
+   Escreval
+   Escreval("Area do Trapezio")
+   Escreva("Informe a base maior : ")
+   Leia(B1)
+   Escreva("Informe a base menor : ")
+   Leia(B2)
+   Escreva("Informe a altura : ")
+   Leia(a)
+   areaT <- ( B1 + B2 ) / 2 * a
+   Escreva("O Trapezio com bases ",B1," e ",B2)
+   Escreva(" com altura de",a," tem area de",areaT)
 fimalgoritmo

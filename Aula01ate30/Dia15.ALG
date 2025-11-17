@@ -1,4 +1,4 @@
-Algoritmo "Dia 16"
+Algoritmo "Dia 15"
 // Linguagem e L�gica de Programa��o
 // Curso em V�deo
 // Calcule o IMC ( �ndice de Massa Corporal )

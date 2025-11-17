@@ -1,33 +1,28 @@
 algoritmo "Dia 26"
 var
-   n1,x, y, z, w, soma: inteiro
-   a: real  b: inteiro
+   a, b, x: Real
+   c, d, y: Real
 inicio
-   Escreval("Dobro, Triplo e Quaduplo")
-   w <- n1 * 5
-   Escreva("Informe um n�mero : ")
-   Leia(n1)
-   x <- n1 * 2
-// Vari�vel y recebe a express�o x * 2
-// Primeiro se resolve a express�o depois atribui o
-// valor a y
-   y <- n1 * 3
-   z <- n1 * 4
-   soma <- x + y + z
-   Escreval("O dobro vale : ", x)
-   Escreval("O triplo vale : ", y)
-   Escreval("O quaduplo vale : ", z)
-   Escreval("O quintuplo vale : ", w) // Resulta 0
-// N1 foi dado depois
-// O programa funciona em passos
-   Escreva("A soma do dobro com o triplo com quaduplo")
-   Escreval(" vale : ", soma)
+   Escreval("Equacao do primeiro grau")
+   Escreval("ax + b = 0")
+   Escreva("Informe o valor de a : ")
+   Leia(a)
+   Escreva("Informe o valor de b : ")
+   Leia(b)
+   x <- -b / a
+   Escreval("O valor de x vale : ",x)
    Escreval
-   Escreval("Atribui��o")
-   a <- 5.5
-// b <- a ERRO !!!
-// a foi declarado como Numero Real mas B nao
-// Numero Inteiro, logo precisamos explicitar
-   b <- int(a) // Quero somente a parte inteira
-   Escreval("Sendo a igual a 5.5, a parte inteira e ",b)
+   Escreval("Equacao do 1 grau")
+   Escreval("ax + b = 0")
+   Escreva("Informe o valor de a : ")
+   Leia(c)
+   Escreva("Informe o valor de b : ")
+   Leia(d)
+   y <- -c / d
+   Escreval("O valor de x vale : ",y)
 fimalgoritmo
+
+// ax + b = 0
+// 4x + ( -4 ) = 0
+// x = 4/4 > x = 1
+// ax + b = 0 > ax = -b > x = -b / a

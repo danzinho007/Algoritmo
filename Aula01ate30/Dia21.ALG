@@ -1,19 +1,20 @@
-Algoritmo "Pedir nome e calcular a mï¿½dia"
-Var
-   nome1, nome2: Caractere
-   n1, n2: Inteiro
-   med: Real
-Inicio
-   Escreval("Media de idade")
-   Escreva("Informe o seu nome : ")
-   Leia(nome1)
-   Escreva("Informe a sua idade : ")
-   Leia(n1)
-   Escreva("Informe o nome dela/e : ")
-   Leia(nome2)
-   Escreva("Informe a idade dela/e : ")
-   Leia(n2)
-   med <- ( n1 + n2 ) / 2
-   Escreva("A media de ", nome1, " e ", nome2," e ")
-   Escreva(med:2:2)
-Fimalgoritmo
+algoritmo "semnome"
+var
+   r1, r2, areaC: Real
+inicio
+   Escreval("Area do Cïrculo")
+   Escreval("Sendo pi = 3.14159")
+   Escreva("Informe o valor do raio : ")
+   Leia(r1)
+   areaC <- pi * ( Exp(r1,2) )
+   Escreva("A area do Cïrrculo de raio", r1," ï¿½ ")
+   Escreval(areaC:2:3)
+   Escreval("")
+   Escreval("Area do Cïrculo")
+   Escreval("Sendo pi = 3.14159")
+   Escreva("Informe o valor do raio : ")
+   Leia(r2)
+   areaC <- pi * ( Exp(r2,2) )
+   Escreva("A area do Circulo de raio", r2," ï¿½ ")
+   Escreval(areaC:2:3)
+fimalgoritmo
